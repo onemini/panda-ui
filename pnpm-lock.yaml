@@ -51,7 +51,7 @@ importers:
         version: registry.npmmirror.com/vue@3.2.39
     devDependencies:
       '@pdui/theme':
-        specifier: workspace:^
+        specifier: workspace:^1.0.0
         version: link:packages/pdui-theme
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.44.0
@@ -120,7 +120,7 @@ importers:
         specifier: ^9.6.4
         version: 9.6.4
       pandaui:
-        specifier: workspace:*
+        specifier: workspace:^0.0.1
         version: link:packages/pdui-components
       prettier:
         specifier: ^2.7.1
