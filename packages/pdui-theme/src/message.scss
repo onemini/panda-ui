@@ -1,0 +1,26 @@
+@import '../mixins/config.scss';
+
+.pd-message {
+  background-color: #ffffff;
+  padding: 8px 18px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  margin: 20px auto 0;
+  transition: all 0.32s;
+  border-radius: var(--default-radius);
+  font-size: 14px;
+  color: #222222;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+  display: flex;
+  .pd-icon {
+    vertical-align: text-bottom;
+    margin-right: 4px;
+  }
+}
+.pd-msg-fade-enter-from,
+.pd-msg-fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -100%);
+}

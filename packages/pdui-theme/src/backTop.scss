@@ -1,0 +1,33 @@
+@import '../mixins/config.scss';
+.pd-backtop {
+  width: 42px;
+  height: 42px;
+  background-color: var(--primary-color);
+  border-radius: var(--default-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 120px;
+  right: 60px;
+  opacity: 0.88;
+  &.pd-backtop__shape {
+    border-radius: 100%;
+  }
+  cursor: pointer;
+  .pd-icon {
+    fill: #fff;
+  }
+
+  &.show-backtop {
+    animation: shake 0.22s;
+  }
+  @keyframes shake {
+    0% {
+      transform: translateY(60px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
