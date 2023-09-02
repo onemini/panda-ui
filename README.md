@@ -1,11 +1,11 @@
-# IKUN-UI
+# PANDA-UI
 
 <p>
   <img alt="logo" src="https://onemini.github.io/panda-ui/layer5.png" width="180" height="180" />
 </p>
 
 <h1>
-  IKUNUI
+  PANDAUI
 </h1>
 
 <p>
