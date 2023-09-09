@@ -1,9 +1,9 @@
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    PdButton: typeof import('pandaui')['PdButton']
-    PdIcon: typeof import('pandaui')['PdIcon']
-    PdInput: typeof import('pandaui')['PdInput']
-    PdCheckbox: typeof import('pandaui')['PdCheckbox']
+    IkButton: typeof import('ikuiv')['IkButton']
+    IkIcon: typeof import('ikuiv')['IkIcon']
+    IkInput: typeof import('ikuiv')['IkInput']
+    IkCheckbox: typeof import('ikuiv')['IkCheckbox']
   }
 }
 

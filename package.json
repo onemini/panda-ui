@@ -1,10 +1,9 @@
 {
-  "name": "ikuiv",
-  "packageManager": "pnpm@7.3.0",
   "version": "1.0.0",
+  "private": true,
   "description": "",
+  "name": "vvvs",
   "main": "index.js",
-  "homepage": "https://laine001.github.io/ikun-ui/",
   "scripts": {
     "dev": "vite",
     "build": "pnpm build:pkg && pnpm build:theme && pnpm gen",
@@ -24,6 +23,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@panda-ui/components": "workspace:*",
+    "@panda-ui/theme-chalk": "workspace:*",
+    "@panda-ui/utils": "workspace:*",
     "@mdit-vue/plugin-sfc": "^0.12.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
@@ -39,7 +41,6 @@
     "vue": "^3.2.39"
   },
   "devDependencies": {
-    "@pdui/theme": "workspace:^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
     "@vitest/coverage-c8": "^0.30.1",
@@ -62,7 +63,6 @@
     "i": "^0.3.7",
     "inquirer": "^9.2.7",
     "npm": "^9.6.4",
-    "pandaui": "workspace:^0.0.1",
     "prettier": "^2.7.1",
     "typescript": "*",
     "vanilla-tilt": "^1.8.0",
@@ -70,12 +70,5 @@
     "vitest": "^0.29.8",
     "vue-router": "^4.2.2",
     "vue3-popper": "^1.5.0"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    }
   }
 }

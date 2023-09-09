@@ -1,9 +1,7 @@
 <script lang="ts" setup></script>
 <template>
   <div>
-    <pd-backtop />
-    <pd-backtop icon="direction-up" />
-    <pd-backtop icon="icon-arrow-up-bold" />
+    <ik-button type="primary">url2base64</ik-button>
   </div>
 </template>
 <style></style>

@@ -73,7 +73,7 @@ const toggleLoading = () => {
 
 <script setup>
   import { ref } from 'vue'
-  import { loadingService as IkLoading } from '../../packages/pdui-components/loading'
+  import { loadingService as IkLoading } from '../../packages/components/loading'
   const loading = ref(false)
   const loading2 = ref(false)
   const toggleLoading = () => {

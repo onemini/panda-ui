@@ -24,16 +24,16 @@ const menuList = [
 ]
 </script>
 <template>
-  <pd-container>
-    <pd-aside class="my-aside">
-      <div class="logo">pdui-admin-template</div>
-      <pd-menu :items="menuList" />
-    </pd-aside>
-    <pd-container direction="ver">
-      <pd-header class="my-header">
-        <div class="header-left"><pd-icon name="toggle-left" color="#ffffff" /></div>
+  <ik-container>
+    <ik-aside class="my-aside">
+      <div class="logo">ikui-admin-template</div>
+      <ik-menu :items="menuList" />
+    </ik-aside>
+    <ik-container direction="ver">
+      <ik-header class="my-header">
+        <div class="header-left"><ik-icon name="toggle-left" color="#ffffff" /></div>
         <div class="header-right">
-          <a class="header-github" href="https://github.com/LAINE001/pd-ui" target="_blank" rel="noopener"
+          <a class="header-github" href="https://github.com/LAINE001/ik-ui" target="_blank" rel="noopener"
             ><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>GitHub</title>
               <path
@@ -41,65 +41,65 @@ const menuList = [
               ></path>
             </svg>
           </a>
-          <pd-avatar square url="https://avatars.githubusercontent.com/u/40457081?s=48&v=4" />
+          <ik-avatar square url="https://avatars.githubusercontent.com/u/40457081?s=48&v=4" />
         </div>
-      </pd-header>
-      <pd-main class="demo1-main">
+      </ik-header>
+      <ik-main class="demo1-main">
         <router-view></router-view>
-        <!-- <pd-button type="success">阿斯弗</pd-button>
-        <pd-select filterOn v-model="selectValue" :option="selectOption"></pd-select>
-        <pd-switch />
-        <pd-tooltip placement="top">
+        <!-- <ik-button type="success">阿斯弗</ik-button>
+        <ik-select filterOn v-model="selectValue" :option="selectOption"></ik-select>
+        <ik-switch />
+        <ik-tooltip placement="top">
           <template #content>
             <div>123123</div>
           </template>
-          <pd-button>左中</pd-button>
-        </pd-tooltip>
+          <ik-button>左中</ik-button>
+        </ik-tooltip>
         <br />
         <br />
         <br />
-        <pd-space>
-          <pd-switch />
-          <pd-switch />
+        <ik-space>
+          <ik-switch />
+          <ik-switch />
           <span>123213</span>
           hellow
           <div style="border: 1px solid">
             123
             <p>哈哈哈哈</p>
           </div>
-        </pd-space>
-        <pd-space size="small" wrap>
-          <pd-button>按 钮</pd-button>
-          <pd-button>按 钮2</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-          <pd-button>按钮3</pd-button>
-        </pd-space> -->
-      </pd-main>
-    </pd-container>
-  </pd-container>
+        </ik-space>
+        <ik-space size="small" wrap>
+          <ik-button>按 钮</ik-button>
+          <ik-button>按 钮2</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+          <ik-button>按钮3</ik-button>
+        </ik-space> -->
+      </ik-main>
+    </ik-container>
+  </ik-container>
 </template>
 <style lang="scss">
 * {

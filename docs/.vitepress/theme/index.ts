@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-import PdUI, { message } from 'pandaui'
-import '@pdui/theme/index.scss'
+import PdUI, { message } from '@panda-ui/components'
+import '@panda-ui/theme-chalk/index.scss'
 // import Demo from '../components/demo.vue'
 // import DemoBlock from '../components/demoBlock.vue'
 import './var.css'

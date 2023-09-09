@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { PdCheckbox } from 'pandaui'
+import { IkCheckbox } from 'ikuiv'
 import { ref, getCurrentInstance, watch } from 'vue'
 const _global = getCurrentInstance()
 let id = 1
@@ -64,34 +64,34 @@ const toggleTheme = () => {
   <div>
     <div class="examples-box">
       <h1>按钮</h1>
-      <pd-button @click="toggleTheme">切换主题</pd-button>
-      <pd-button type="primary">主题按钮</pd-button>
-      <pd-button type="success">成功按钮</pd-button>
-      <pd-button type="warning">警告按钮</pd-button>
-      <pd-button type="danger">危险按钮</pd-button>
-      <pd-button type="primary" disabled>禁用状态</pd-button>
+      <ik-button @click="toggleTheme">切换主题</ik-button>
+      <ik-button type="primary">主题按钮</ik-button>
+      <ik-button type="success">成功按钮</ik-button>
+      <ik-button type="warning">警告按钮</ik-button>
+      <ik-button type="danger">危险按钮</ik-button>
+      <ik-button type="primary" disabled>禁用状态</ik-button>
       <br />
       <br />
-      <pd-button icon="add">按钮</pd-button>
-      <pd-button loading>加载中</pd-button>
-      <pd-button type="primary" loading>请稍后</pd-button>
-      <pd-button>
-        <pd-icon name="user" />
+      <ik-button icon="add">按钮</ik-button>
+      <ik-button loading>加载中</ik-button>
+      <ik-button type="primary" loading>请稍后</ik-button>
+      <ik-button>
+        <ik-icon name="user" />
         按钮
-      </pd-button>
-      <pd-button type="primary">
+      </ik-button>
+      <ik-button type="primary">
         按钮
-        <pd-icon color="#ffffff" name="main" />
-      </pd-button>
+        <ik-icon color="#ffffff" name="main" />
+      </ik-button>
     </div>
 
     <div class="examples-box">
       <h1>loading</h1>
-      <pd-button type="primary" @click="toggle1">loading1</pd-button>
-      <pd-button type="primary" @click="loading2 = !loading2">loading2</pd-button>
-      <pd-button type="primary" @click="loading3 = !loading3">loading3</pd-button>
-      <pd-button type="primary" @click="onClick">全屏按钮</pd-button>
-      <pd-button type="primary">全屏按钮方法调用</pd-button>
+      <ik-button type="primary" @click="toggle1">loading1</ik-button>
+      <ik-button type="primary" @click="loading2 = !loading2">loading2</ik-button>
+      <ik-button type="primary" @click="loading3 = !loading3">loading3</ik-button>
+      <ik-button type="primary" @click="onClick">全屏按钮</ik-button>
+      <ik-button type="primary">全屏按钮方法调用</ik-button>
       <div v-loading="loading1">这里是loading测试1</div>
       <div v-loading="loading2" class="loading-demo2">
         <p>寒蝉凄切</p>
@@ -103,31 +103,31 @@ const toggleTheme = () => {
     </div>
     <div class="examples-box">
       <h1>输入框</h1>
-      <pd-input v-model="val1" hasClear @change="onInputChange" />
+      <ik-input v-model="val1" hasClear @change="onInputChange" />
     </div>
     <div class="examples-box">
       <h1>图标</h1>
-      <pd-icon color="red" :size="38" name="star-fill" />
+      <ik-icon color="red" :size="38" name="star-fill" />
     </div>
     <div class="examples-box">
       <h1>message提示</h1>
-      <pd-button @click="openMessage">普通提示</pd-button>
-      <pd-button @click="openMessage2">传入对象</pd-button>
-      <pd-button @click="openMessage3">点type调用</pd-button>
-      <pd-button @click="openMessage4">点type调用</pd-button>
+      <ik-button @click="openMessage">普通提示</ik-button>
+      <ik-button @click="openMessage2">传入对象</ik-button>
+      <ik-button @click="openMessage3">点type调用</ik-button>
+      <ik-button @click="openMessage4">点type调用</ik-button>
     </div>
     <div class="examples-box">
       <h1>checkbox</h1>
       <div>
-        <!-- <pd-checkbox v-model="selected" label="选项一"></pd-checkbox> -->
-        <pd-checkbox v-model="selected2" label="测试1"></pd-checkbox>
+        <!-- <ik-checkbox v-model="selected" label="选项一"></ik-checkbox> -->
+        <ik-checkbox v-model="selected2" label="测试1"></ik-checkbox>
       </div>
       <div>
-        <pd-checkbox-group v-model="selectedList">
-          <pd-checkbox label="选项111"></pd-checkbox>
-          <pd-checkbox label="选项222"></pd-checkbox>
-          <pd-checkbox label="选项333"></pd-checkbox>
-        </pd-checkbox-group>
+        <ik-checkbox-group v-model="selectedList">
+          <ik-checkbox label="选项111"></ik-checkbox>
+          <ik-checkbox label="选项222"></ik-checkbox>
+          <ik-checkbox label="选项333"></ik-checkbox>
+        </ik-checkbox-group>
         {{ selectedList }}
       </div>
     </div>

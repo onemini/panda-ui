@@ -1,12 +1,12 @@
 import { createApp } from 'vue'
 import app from './layout.vue'
-import PdUI from 'pandaui'
-import '@pdui/theme/index.scss'
+import IkUI from 'ikuiv'
+import '@ikui/theme/index.scss'
 import router from './router'
 
-document.title = 'pdui-dev'
+document.title = 'ikui-dev'
 
-createApp(app).use(PdUI).use(router).mount('#app')
+createApp(app).use(IkUI).use(router).mount('#app')
 
 // import { createApp } from 'vue'
 // import app from './online-pkg.vue'

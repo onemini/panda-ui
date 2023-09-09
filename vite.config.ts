@@ -16,7 +16,7 @@ export default defineConfig({
       insertTypesEntry: true,
       cleanVueFileName: true,
       copyDtsFiles: true,
-      include: ['./packages/pdui-components'],
+      include: ['./packages/components'],
       outputDir: ['./dist/lib', './dist/es'],
       afterBuild: (): void => {
         console.log('build complete')
@@ -29,8 +29,8 @@ export default defineConfig({
     reportCompressedSize: true,
     // outDir: resolve(__dirname, 'dist/es'),
     lib: {
-      entry: resolve(__dirname, 'packages/pdui-components/index.ts'),
-      name: 'pandaui',
+      entry: resolve(__dirname, 'packages/components/index.ts'),
+      name: 'ikunui',
       // fileName: (format) => `index.${format}.js`,
       // formats: ['esm', 'cjs', 'umd', 'es', 'iife'],
     },
@@ -44,7 +44,7 @@ export default defineConfig({
       output: [
         {
           format: 'umd',
-          name: 'pandaui',
+          name: 'ikunui',
           exports: 'named',
           sourcemap: false,
           dir: 'dist/dist',

@@ -1,6 +1,6 @@
 {
-  "name": "pandaui",
-  "version": "0.0.1",
+  "name": "@panda-ui/components",
+  "version": "1.1.0",
   "description": "a simple ui components built on vue3 vite",
   "main": "./index.js",
   "types": "index.d.ts",

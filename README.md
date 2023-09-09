@@ -1,11 +1,11 @@
-# PANDA-UI
+# IKUN-UI
 
 <p>
-  <img alt="logo" src="https://onemini.github.io/panda-ui/layer5.png" width="180" height="180" />
+  <img alt="logo" src="https://laine001.github.io/ikun-ui/layer5.png" width="180" height="180" />
 </p>
 
 <h1>
-  PANDAUI
+  IKUNUI
 </h1>
 
 <p>
@@ -13,10 +13,10 @@
 </p>
 
 <p>
-  <img src="https://github.com/onemini/panda-ui/actions/workflows/pages.yml/badge.svg?branch=master" />
-  <img src="https://codecov.io/gh/onemini/panda-ui/branch/master/graph/badge.svg?token=0D5SALPD1A" />
-  <a href="https://www.npmjs.com/package/pandaui"><img src="https://badgen.net/npm/v/pandaui" /></a>
-  <img src="https://img.shields.io/github/license/onemini/pd-ui?color=red" />
+  <img src="https://github.com/LAINE001/ik-ui/actions/workflows/pages.yml/badge.svg?branch=master" />
+  <img src="https://codecov.io/gh/LAINE001/ik-ui/branch/master/graph/badge.svg?token=0D5SALPD1A" />
+  <a href="https://www.npmjs.com/package/ikuiv"><img src="https://badgen.net/npm/v/ikuiv" /></a>
+  <img src="https://img.shields.io/github/license/laine001/ik-ui?color=red" />
 </p>
 
 ## Features
@@ -31,15 +31,15 @@
 Using `npm` to install:
 
 ```bash
-npm i panda-ui
+npm i ikun-ui
 ```
 
 Using `yarn` or `pnpm` to install:
 
 ```bash
-yarn add panda-ui
+yarn add ikun-ui
 
-pnpm add panda-ui
+pnpm add ikun-ui
 ```
 
 ## Quickstart
@@ -48,24 +48,24 @@ pnpm add panda-ui
 import { createApp } from 'vue'
 import App from './app.vue'
 
-import pandaui from 'panda-ui'
-import 'panda-ui/lib/index.css'
+import ikun from 'ikun-ui'
+import 'ikunui/lib/index.css'
 
-createApp(App).use(pandaui).mount('#app')
+createApp(App).use(ikun).mount('#app')
 
 // or
 
-import { IkButton } from 'panda-ui'
+import { IkButton } from 'ikun-ui'
 app.use(IkButton)
 ```
 
-see more in [Quickstart](https://onemini.github.io/panda-ui)
+see more in [Quickstart](https://laine001.github.io/ik-ui)
 
 ## Links
 
-- [Documentation](https://onemini.github.io/panda-ui)
-- [Timelines](https://onemini.github.io/panda-ui)
-- [more](https://onemini.github.io/panda-ui)
+- [Documentation](https://laine001.github.io/ikun-ui)
+- [Timelines](https://laine001.github.io/ikun-ui)
+- [more](https://laine001.github.io/ikun-ui)
 
 ## Join us
 
@@ -77,8 +77,8 @@ Hava an idea ? u can join us
 
 ## Contributors
 
-<a href="https://github.com/onemini/panda-ui/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=onemini/panda-ui" width="50" />
+<a href="https://github.com/LAINE001/ikun-ui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=laine001/ikun-ui" width="50" />
 </a>
 
 ## Thanks
@@ -93,4 +93,4 @@ Learn from many excellent community projects
 
 ## LICENSE
 
-[MIT](https://github.com/onemini/panda-ui/blob/master/LICENSE)
+[MIT](https://github.com/LAINE001/ikun-ui/blob/master/LICENSE)

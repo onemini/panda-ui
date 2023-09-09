@@ -80,7 +80,7 @@
 </div>
 
 <style lang="scss">
-  @import '../../packages/pdui-theme/mixins/config.scss';
+  @import '../../packages/theme-chalk/mixins/config.scss';
   .colors-list {
     display: flex;
   }

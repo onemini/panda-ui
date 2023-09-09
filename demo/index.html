@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/element-plus"></script>
 
     <!-- <script src="../dist/dist/index.umd.js"></script>
-    <link rel="stylesheet" href="../dist/style/index.css" /> -->
+  <link rel="stylesheet" href="../dist/style/index.css"> -->
 
     <script src="https://cdn.jsdelivr.net/npm/ikuiv@0.0.1-alpha.3/dist/index.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ikuiv@0.0.1-alpha.3/style/index.css" />
@@ -23,7 +23,7 @@
   <body>
     <div id="app">
       <el-button>{{ message }}</el-button>
-      <pd-button type="primary">{{ message }}22</pd-button>
+      <ik-button type="primary">{{ message }}22</ik-button>
     </div>
     <script>
       const { createApp, ref } = Vue
@@ -37,28 +37,28 @@
         },
       })
         .use(ElementPlus)
-        .use(pandaui.default)
+        .use(ikunui.default)
         .mount('#app')
 
       console.log(Vue, 'vue')
       console.log(ElementPlus, ElementPlus.default, 'element-plus')
       // import ikuiv from '../dist/index.es.js'
-      console.log(pandaui.default, 'pandaui')
+      console.log(ikunui.default, 'ikuiv')
     </script>
     <!-- <script type="module">
     import { createApp } from 'vue/dist/vue.esm-bundler.js'
     // import { Button } from '../dist/ikui.esm.js'
-    import PdUI from '../dist/pdui.esm.js'
+    import IkUI from '../dist/ikui.esm.js'
     import '../dist/style.css'
-    console.log(PdUI)
+    console.log(IkUI)
     createApp({
       template: `
-        <pd-button type="primary">阿斯弗</pd-button>
-        <pd-icon name="user" />
-        <pd-input />
+        <ik-button type="primary">阿斯弗</ik-button>
+        <ik-icon name="user" />
+        <ik-input />
       `,
     })
-      .use(PdUI)
+      .use(IkUI)
       .mount('#app')
   </script> -->
   </body>

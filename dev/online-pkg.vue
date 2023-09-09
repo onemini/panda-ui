@@ -1,4 +1,4 @@
 <template>
-  <pd-button>普通按钮</pd-button>
-  <pd-button type="primary">普通按钮</pd-button>
+  <ik-button>普通按钮</ik-button>
+  <ik-button type="primary">普通按钮</ik-button>
 </template>
