@@ -1,5 +1,6 @@
 {
   "version": "1.0.0",
+  "packageManager": "pnpm@7.3.0",
   "private": true,
   "description": "",
   "name": "vvvs",
