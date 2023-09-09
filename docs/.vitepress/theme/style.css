@@ -13,9 +13,7 @@
   border: none;
 }
 .VPImage {
-  max-width: 380px !important;
-  max-height: 380px !important;
-  top: 67% !important;
+  max-width: 280px !important;
 }
 .VPDocAsideOutline .content {
   border: none;
@@ -55,7 +53,7 @@ summary {
   opacity: 0.88;
 }
 .is-home::before {
-  content: '';
+  content: '🐥';
   width: 400px;
   height: 400px;
   border-radius: 100%;
@@ -76,7 +74,7 @@ summary {
 }
 
 .is-home::after {
-  content: '';
+  content: '🏀';
   width: 260px;
   height: 260px;
   text-align: center;
@@ -290,4 +288,37 @@ html::-webkit-scrollbar-thumb {
 .VPMenu {
   padding: 8px 6px !important;
   border: none !important;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 12px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: #cccccc;
+  width: 12px;
+  height: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb8b8;
+}
+.VPSidebar::-webkit-scrollbar {
+  background: transparent;
+  width: 0;
+  height: 10px;
+}
+.VPSidebar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #eee;
+  width: 0;
+  height: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.VPSwitchAppearance {
+  border-color: #eee !important;
 }

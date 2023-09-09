@@ -3,14 +3,14 @@
 ## 基本使用
 
 通常可以直接使用内置指令`v-model`实现双向绑定
-<pd-input v-model="inputValue1" placeholder="请输入" />
+<ik-input v-model="inputValue1" placeholder="请输入" />
 {{ inputValue1 }}
 
 :::details 点击展开
 
 ```vue
 <template>
-  <pd-input v-model="inputValue1" placeholder="请输入" />
+  <ik-input v-model="inputValue1" placeholder="请输入" />
 </template>
 ```
 
@@ -19,7 +19,7 @@
 ## 清除图标
 
 直接添加`hasClear`属性可使输入框带有清除图标
-<pd-input v-model="inputValue2" hasClear placeholder="请输入" />
+<ik-input v-model="inputValue2" hasClear placeholder="请输入" />
 
 :::details 点击展开
 
@@ -29,7 +29,7 @@ import { ref } from 'vue'
 const inputValue2 = ref('这里可直接清除')
 </script>
 <template>
-  <pd-input v-model="inputValue2" placeholder="请输入" />
+  <ik-input v-model="inputValue2" placeholder="请输入" />
 </template>
 ```
 
@@ -47,10 +47,10 @@ const inputValue2 = ref('这里可直接清除')
 
 ```vue
 <template>
-  <pd-space direction="column">
-    <pd-input prefixIcon="user" />
-    <pd-input suffixIcon="chuizi-cpoy" />
-  </pd-space>
+  <ik-space direction="column">
+    <ik-input prefixIcon="user" />
+    <ik-input suffixIcon="chuizi-cpoy" />
+  </ik-space>
 </template>
 ```
 

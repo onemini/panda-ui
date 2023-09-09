@@ -17,10 +17,10 @@ const onUnlock = (pwd) => {
 </script>
 <template>
   <div>
-    <pd-switch true-text="显示时间" v-model="showTime" />
+    <ik-switch true-text="显示时间" v-model="showTime" />
     <br />
-    <pd-button @click="toggleLockScreen">打开锁屏</pd-button>
-    <pd-lock-screen :showTime="showTime" @onUnlock="onUnlock" :visible="visible" />
+    <ik-button @click="toggleLockScreen">打开锁屏</ik-button>
+    <ik-lock-screen :showTime="showTime" @onUnlock="onUnlock" :visible="visible" />
   </div>
 </template>
 ```

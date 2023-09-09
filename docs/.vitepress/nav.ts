@@ -50,7 +50,7 @@ export default [
       },
       {
         text: 'blog',
-        link: 'https://onemini.github.io/',
+        link: 'https://laine001.github.io/',
       },
       // {
       //   text: '酷酷鸭',

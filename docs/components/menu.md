@@ -65,14 +65,14 @@ const menuList = [
 ]
 </script>
 <template>
-  <pd-menu :items="menuList" />
+  <ik-menu :items="menuList" />
 </template>
 ```
 
 :::
 
-<!-- <pd-menu>
-  <pd-menu-item>首页</pd-menu-item>
-  <pd-menu-item>设置</pd-menu-item>
-  <pd-submenu-item>用户管理</pd-submenu-item>
-</pd-menu> -->
+<!-- <ik-menu>
+  <ik-menu-item>首页</ik-menu-item>
+  <ik-menu-item>设置</ik-menu-item>
+  <ik-submenu-item>用户管理</ik-submenu-item>
+</ik-menu> -->

@@ -4,27 +4,24 @@
 
 ## 普通按钮
 
-<pd-button>普通按钮</pd-button>
-<pd-button type="primary">主要按钮</pd-button>
-
 `type`设置按钮类型，`shape`属性为圆角按钮
 
 :::demo
 
 ```vue
 <template>
-  <pd-space wrap="wrap">
-    <pd-button>普通按钮</pd-button>
-    <pd-button type="primary">主要按钮</pd-button>
-    <pd-button type="success">成功按钮</pd-button>
-    <pd-button type="warning">警告按钮</pd-button>
-    <pd-button type="danger">危险按钮</pd-button>
-    <pd-button round>普通按钮</pd-button>
-    <pd-button type="primary" round>主要按钮</pd-button>
-    <pd-button type="success" round>成功按钮</pd-button>
-    <pd-button type="warning" round>警告按钮</pd-button>
-    <pd-button type="danger" round>危险按钮</pd-button>
-  </pd-space>
+  <ik-space wrap="wrap">
+    <ik-button>普通按钮</ik-button>
+    <ik-button type="primary">主要按钮</ik-button>
+    <ik-button type="success">成功按钮</ik-button>
+    <ik-button type="warning">警告按钮</ik-button>
+    <ik-button type="danger">危险按钮</ik-button>
+    <ik-button round>普通按钮</ik-button>
+    <ik-button type="primary" round>主要按钮</ik-button>
+    <ik-button type="success" round>成功按钮</ik-button>
+    <ik-button type="warning" round>警告按钮</ik-button>
+    <ik-button type="danger" round>危险按钮</ik-button>
+  </ik-space>
 </template>
 ```
 
@@ -38,12 +35,12 @@
 
 ```vue
 <template>
-  <pd-space wrap="wrap">
-    <pd-button type="primary" plain>朴素按钮</pd-button>
-    <pd-button type="success" plain>朴素按钮</pd-button>
-    <pd-button type="warning" plain round>朴素按钮</pd-button>
-    <pd-button type="danger" plain round>朴素按钮</pd-button>
-  </pd-space>
+  <ik-space wrap="wrap">
+    <ik-button type="primary" plain>朴素按钮</ik-button>
+    <ik-button type="success" plain>朴素按钮</ik-button>
+    <ik-button type="warning" plain round>朴素按钮</ik-button>
+    <ik-button type="danger" plain round>朴素按钮</ik-button>
+  </ik-space>
 </template>
 ```
 
@@ -57,13 +54,13 @@
 
 ```vue
 <template>
-  <pd-space wrap="wrap">
-    <pd-button disabled>普通按钮</pd-button>
-    <pd-button type="primary" disabled>主要按钮</pd-button>
-    <pd-button type="success" disabled>成功按钮</pd-button>
-    <pd-button type="warning" disabled>警告按钮</pd-button>
-    <pd-button type="danger" disabled>危险按钮</pd-button>
-  </pd-space>
+  <ik-space wrap="wrap">
+    <ik-button disabled>普通按钮</ik-button>
+    <ik-button type="primary" disabled>主要按钮</ik-button>
+    <ik-button type="success" disabled>成功按钮</ik-button>
+    <ik-button type="warning" disabled>警告按钮</ik-button>
+    <ik-button type="danger" disabled>危险按钮</ik-button>
+  </ik-space>
 </template>
 ```
 
@@ -77,19 +74,19 @@
 
 ```vue
 <template>
-  <pd-space>
-    <pd-button icon="add">按钮</pd-button>
-    <pd-button>
-      <pd-icon name="user" />
+  <ik-space>
+    <ik-button icon="add">按钮</ik-button>
+    <ik-button>
+      <ik-icon name="user" />
       按钮
-    </pd-button>
-    <pd-button>
+    </ik-button>
+    <ik-button>
       按钮
-      <pd-icon name="main" />
-    </pd-button>
+      <ik-icon name="main" />
+    </ik-button>
 
-    <pd-button pdun></pd-button>
-  </pd-space>
+    <ik-button ikun></ik-button>
+  </ik-space>
 </template>
 ```
 
@@ -103,22 +100,22 @@
 
 ```vue
 <template>
-  <pd-space>
-    <pd-button size="small">普通按钮</pd-button>
-    <pd-button type="primary" size="small">主要按钮</pd-button>
-  </pd-space>
+  <ik-space>
+    <ik-button size="small">普通按钮</ik-button>
+    <ik-button type="primary" size="small">主要按钮</ik-button>
+  </ik-space>
   <br />
   <br />
-  <pd-space>
-    <pd-button>普通按钮</pd-button>
-    <pd-button type="primary">主要按钮</pd-button>
-  </pd-space>
+  <ik-space>
+    <ik-button>普通按钮</ik-button>
+    <ik-button type="primary">主要按钮</ik-button>
+  </ik-space>
   <br />
   <br />
-  <pd-space>
-    <pd-button size="large">普通按钮</pd-button>
-    <pd-button type="primary" size="large">主要按钮</pd-button>
-  </pd-space>
+  <ik-space>
+    <ik-button size="large">普通按钮</ik-button>
+    <ik-button type="primary" size="large">主要按钮</ik-button>
+  </ik-space>
 </template>
 ```
 
@@ -130,10 +127,10 @@
 
 ```vue
 <template>
-  <pd-space>
-    <pd-button loading>加载中</pd-button>
-    <pd-button type="primary" loading>请稍后</pd-button>
-  </pd-space>
+  <ik-space>
+    <ik-button loading>加载中</ik-button>
+    <ik-button type="primary" loading>请稍后</ik-button>
+  </ik-space>
 </template>
 ```
 
@@ -157,7 +154,7 @@
 
 <style lang="scss">
   .flex {
-    .pd-button {
+    .ik-button {
       margin-right: 12px;
     }
   }

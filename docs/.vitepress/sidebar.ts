@@ -82,6 +82,10 @@ export default {
           text: '复选框 Checkbox',
           link: '/components/checkbox',
         },
+        {
+          text: '滑块 Slider',
+          link: '/components/slider',
+        },
       ],
     },
     {
@@ -113,8 +117,12 @@ export default {
           link: '/components/tag',
         },
         {
-          text: '折叠面板 Collapse',
-          link: '/components/collapse',
+          text: '折叠动画 Collapse',
+          link: '/components/collapse-transition',
+        },
+        {
+          text: '空状态 Empty',
+          link: '/components/empty',
         },
       ],
     },

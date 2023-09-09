@@ -7,7 +7,7 @@
 :::demo
 
 ```vue
-<pd-switch v-model="switchValue" />
+<ik-switch v-model="switchValue" />
 {{ switchValue }}
 
 <script setup>
@@ -27,12 +27,12 @@ const switchValue = ref(false)
 
 ```vue
 <template>
-  <pd-space direction="column">
-    <pd-icon name="promit" color="red" />
-    <pd-switch v-model="switchValue" true-text="开" false-text="关" />
-    <pd-switch :style="style" v-model="switchValue" />
-    <pd-switch :style="style" square v-model="switchValue" />
-  </pd-space>
+  <ik-space direction="column">
+    <ik-icon name="promit" color="red" />
+    <ik-switch v-model="switchValue" true-text="开" false-text="关" />
+    <ik-switch :style="style" v-model="switchValue" />
+    <ik-switch :style="style" square v-model="switchValue" />
+  </ik-space>
 </template>
 <script setup>
 import { ref } from 'vue'

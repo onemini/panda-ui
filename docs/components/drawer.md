@@ -1,27 +1,27 @@
 # 抽屉 Drawer
 
 呼出一个临时的侧边栏, 设置`position`可以从多个方向呼出
-<pd-space>
-<pd-button type="primary" @click="() => onOpen('left')">left</pd-button>
-<pd-button type="primary" @click="() => onOpen('right')">right</pd-button>
-<pd-button type="primary" @click="() => onOpen('top')">top</pd-button>
-<pd-button type="primary" @click="() => onOpen('bottom')">bottom</pd-button>
-</pd-space>
-<pd-drawer :position="position" title="基础抽屉" :visible="visible" @cancel="onCancel">
+<ik-space>
+<ik-button type="primary" @click="() => onOpen('left')">left</ik-button>
+<ik-button type="primary" @click="() => onOpen('right')">right</ik-button>
+<ik-button type="primary" @click="() => onOpen('top')">top</ik-button>
+<ik-button type="primary" @click="() => onOpen('bottom')">bottom</ik-button>
+</ik-space>
+<ik-drawer :position="position" title="基础抽屉" :visible="visible" @cancel="onCancel">
 content...
-</pd-drawer>
+</ik-drawer>
 
 ::: details 点击查看源码
 
 ```vue
 <template>
-  <pd-space>
-    <pd-button type="primary" @click="() => onOpen('left')">left</pd-button>
-    <pd-button type="primary" @click="() => onOpen('right')">right</pd-button>
-    <pd-button type="primary" @click="() => onOpen('top')">top</pd-button>
-    <pd-button type="primary" @click="() => onOpen('bottom')">bottom</pd-button>
-  </pd-space>
-  <pd-drawer :position="position" title="基础抽屉" :visible="visible" @cancel="onCancel"> content... </pd-drawer>
+  <ik-space>
+    <ik-button type="primary" @click="() => onOpen('left')">left</ik-button>
+    <ik-button type="primary" @click="() => onOpen('right')">right</ik-button>
+    <ik-button type="primary" @click="() => onOpen('top')">top</ik-button>
+    <ik-button type="primary" @click="() => onOpen('bottom')">bottom</ik-button>
+  </ik-space>
+  <ik-drawer :position="position" title="基础抽屉" :visible="visible" @cancel="onCancel"> content... </ik-drawer>
 </template>
 <script lang="ts" setup>
 const visible = ref(false)

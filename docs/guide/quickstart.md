@@ -1,11 +1,11 @@
 # 快速上手
 
-<!-- <img width="80" style="margin-top: 40px" src="/panda-ui/panda.gif" /> -->
+<!-- <img width="80" style="margin-top: 40px" src="/ikun-ui/ikun.gif" /> -->
 
 ## 安装
 
 ```bash
-npm install panda-ui
+npm install ikun-ui
 ```
 
 ## 引入
@@ -14,32 +14,32 @@ npm install panda-ui
 import { createApp } from 'vue'
 import App from './app.vue'
 
-import panda from 'panda-ui'
-import 'panda/lib/index.css'
+import ikun from 'ikun-ui'
+import 'ikui/lib/index.css'
 
-createApp(App).use(panda).mount('#app')
+createApp(App).use(ikun).mount('#app')
 
 // or
 
-import { PdButton } from 'pdun-ui'
-app.use(PdButton)
+import { IkButton } from 'ikun-ui'
+app.use(IkButton)
 ```
 
 ## 使用
 
 ```html
-<pd-space>
-  <pd-button>按 钮</pd-button>
-  <pd-button pdun></pd-button>
-</pd-space>
+<ik-space>
+  <ik-button>按 钮</ik-button>
+  <ik-button ikun></ik-button>
+</ik-space>
 ```
 
 ## 效果
 
-<pd-space>
-  <pd-button>按 钮</pd-button>
+<ik-space>
+  <ik-button>按 钮</ik-button>
 
-  <pd-button>
-    <img width="30" src="https://onemini.github.io/panda-ui/panda.gif" />
-  </pd-button>
-</pd-space>
+  <ik-button>
+    <img width="30" src="https://laine001.github.io/ikun-ui/ikun.gif" />
+  </ik-button>
+</ik-space>

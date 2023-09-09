@@ -10,12 +10,12 @@
 
 ```vue
 <template>
-  <pd-space>
-    <pd-tag>pdun</pd-tag>
-    <pd-tag type="success">Tag 2</pd-tag>
-    <pd-tag type="warning">Tag 3</pd-tag>
-    <pd-tag type="danger">Tag 4</pd-tag>
-  </pd-space>
+  <ik-space>
+    <ik-tag>ikun</ik-tag>
+    <ik-tag type="success">Tag 2</ik-tag>
+    <ik-tag type="warning">Tag 3</ik-tag>
+    <ik-tag type="danger">Tag 4</ik-tag>
+  </ik-space>
 </template>
 ```
 
@@ -30,10 +30,10 @@
 ```vue
 <template>
   <div style="display: flex; gap: 10px">
-    <pd-tag closeable>Tag 1</pd-tag>
-    <pd-tag type="success" closeable>Tag 2</pd-tag>
-    <pd-tag type="warning" closeable>Tag 3</pd-tag>
-    <pd-tag type="danger" closeable>Tag 4</pd-tag>
+    <ik-tag closeable>Tag 1</ik-tag>
+    <ik-tag type="success" closeable>Tag 2</ik-tag>
+    <ik-tag type="warning" closeable>Tag 3</ik-tag>
+    <ik-tag type="danger" closeable>Tag 4</ik-tag>
   </div>
 </template>
 ```
@@ -48,16 +48,16 @@
 
 ```vue
 <template>
-  <pd-space>
-    <pd-tag doubleColor>
-      <template #left>pdun</template>
+  <ik-space>
+    <ik-tag doubleColor>
+      <template #left>ikun</template>
       <template #right>ui</template>
-    </pd-tag>
+    </ik-tag>
 
-    <pd-tag doubleColor pdun>
-      <template #left>pdun</template>
+    <ik-tag doubleColor ikun>
+      <template #left>ikun</template>
       <template #right>hub</template>
-    </pd-tag>
+    </ik-tag>
   </div>
 </template>
 ```

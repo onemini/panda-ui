@@ -11,31 +11,31 @@
 
 <div class="overview-box">
   <div class="card">
-    <pd-button>hello panda</pd-button>
+    <ik-button>hello ikun</ik-button>
   </div>
   <div class="card">
-    <pd-input />
+    <ik-input />
   </div>
   <div class="card">
-    <pd-select :option="['hello', 'panda']" />
+    <ik-select :option="['hello', 'ikun']" />
   </div>
   <div class="card">
-    <pd-switch />
+    <ik-switch />
   </div>
   <div class="card">
-    <pd-avatar />
+    <ik-avatar />
   </div>
   <div class="card">
-    <pd-tag>hello panda</pd-tag>
+    <ik-tag>hello ikun</ik-tag>
   </div>
   <div class="card">
-    <pd-checkbox v-model="checkboxValue" label="hello panda" />
+    <ik-checkbox v-model="checkboxValue" label="hello ikun" />
   </div>
   <div class="card">
-    <pd-tab type="segmented">
-      <pd-tab-item label="hello">222</pd-tab-item>
-      <pd-tab-item label="panda"></pd-tab-item>
-    </pd-tab>
+    <ik-tab type="segmented">
+      <ik-tab-item label="hello">222</ik-tab-item>
+      <ik-tab-item label="ikun"></ik-tab-item>
+    </ik-tab>
   </div>
 </div>
 

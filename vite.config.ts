@@ -16,7 +16,7 @@ export default defineConfig({
       insertTypesEntry: true,
       cleanVueFileName: true,
       copyDtsFiles: true,
-      include: ['./packages/components'],
+      include: ['./packages/ikui-components'],
       outputDir: ['./dist/lib', './dist/es'],
       afterBuild: (): void => {
         console.log('build complete')
@@ -29,7 +29,7 @@ export default defineConfig({
     reportCompressedSize: true,
     // outDir: resolve(__dirname, 'dist/es'),
     lib: {
-      entry: resolve(__dirname, 'packages/components/index.ts'),
+      entry: resolve(__dirname, 'packages/ikui-components/index.ts'),
       name: 'ikunui',
       // fileName: (format) => `index.${format}.js`,
       // formats: ['esm', 'cjs', 'umd', 'es', 'iife'],

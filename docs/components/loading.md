@@ -5,7 +5,7 @@
 ## 基本使用
 
 <div style="margin: 10px 0">
-  <pd-button @click="toggleLoading">切换loading</pd-button>
+  <ik-button @click="toggleLoading">切换loading</ik-button>
 </div>
 <div v-loading="loading">
   <div>雨霖铃</div>
@@ -18,7 +18,7 @@
 
 ```vue
 <template>
-  <pd-button @click="toggleLoading">切换loading</pd-button>
+  <ik-button @click="toggleLoading">切换loading</ik-button>
   <div v-loading="loading">
     <span>雨霖铃</span>
     <p>寒蝉凄切</p>
@@ -39,14 +39,14 @@ const toggleLoading = () => {
 
 ## 全屏
 
-<pd-button @click="toggleLoading2" type="primary">切换全屏 loading</pd-button>
+<ik-button @click="toggleLoading2" type="primary">切换全屏 loading</ik-button>
 
 <div v-loading.fullscreen="loading2"></div>
 
 :::details 点击展开
 
 ```html
-<pd-button @click="toggleLoading2" type="primary">切换全屏loading</pd-button>
+<ik-button @click="toggleLoading2" type="primary">切换全屏loading</ik-button>
 <div v-loading.fullscreen="loading2"></div>
 ```
 
@@ -54,7 +54,7 @@ const toggleLoading = () => {
 
 ## 方法调用
 
-<pd-button @click="openLoading">打开 loading</pd-button>
+<ik-button @click="openLoading">打开 loading</ik-button>
 
 ::: details 点击展开
 
@@ -66,14 +66,14 @@ const toggleLoading = () => {
     })
   }
 </script>
-<pd-button @click="openLoading">打开loading</pd-button>
+<ik-button @click="openLoading">打开loading</ik-button>
 ```
 
 :::
 
 <script setup>
   import { ref } from 'vue'
-  import { loadingService as IkLoading } from '../../packages/components/loading'
+  import { loadingService as IkLoading } from '../../packages/ikui-components/loading'
   const loading = ref(false)
   const loading2 = ref(false)
   const toggleLoading = () => {

@@ -3,34 +3,34 @@
 支持主题切换，内部通过计算取得其色阶值
 
 <div class="t-c-box">
-  <span class="t-b t-b1" @click="() => toggleTheme('#1677ff')">1</span>
-  <span class="t-b t-b2" @click="() => toggleTheme('#673ab7')">2</span>
-  <span class="t-b t-b3" @click="() => toggleTheme('#eb920e')">3</span>
-  <span class="t-b t-b4" @click="() => toggleTheme('#7185f7')">4</span>
-  <span class="t-b t-b5" @click="() => toggleTheme('#ff6723')">5</span>
+  <span class="t-b t-b1" @click="() => toggleTheme('#1677ff')">蓝</span>
+  <span class="t-b t-b2" @click="() => toggleTheme('#673ab7')">紫</span>
+  <span class="t-b t-b3" @click="() => toggleTheme('#eb920e')">黄</span>
+  <span class="t-b t-b4" @click="() => toggleTheme('#7185f7')">坤</span>
+  <span class="t-b t-b5" @click="() => toggleTheme('#ff6723')">橙</span>
   <!-- <span class="t-b t-b6" @click="() => toggleTheme('#333333')">6</span> -->
 </div>
 
 <!-- <input type="color" /> -->
 
 <div style="margin-top: 15px">
-  <pd-button type="primary" @click="toggleRadius">点击切换圆角</pd-button>
+  <ik-button type="primary" @click="toggleRadius">点击切换圆角</ik-button>
   <br />
   <br />
-  <pd-input />
+  <ik-input />
   <br />
 
-  <pd-checkbox-group v-model="checkedList1">
-    <pd-checkbox label="选项一"></pd-checkbox>
-    <pd-checkbox label="选项二"></pd-checkbox>
-    <pd-checkbox label="选项三"></pd-checkbox>
-  </pd-checkbox-group>
+  <ik-checkbox-group v-model="checkedList1">
+    <ik-checkbox label="选项一"></ik-checkbox>
+    <ik-checkbox label="选项二"></ik-checkbox>
+    <ik-checkbox label="选项三"></ik-checkbox>
+  </ik-checkbox-group>
   <br />
-  <pd-tab type="segmented">
-    <pd-tab-item label="选项卡一"></pd-tab-item>
-    <pd-tab-item label="选项卡二"></pd-tab-item>
-    <pd-tab-item label="选项卡第三个"></pd-tab-item>
-  </pd-tab>
+  <ik-tab type="segmented">
+    <ik-tab-item label="选项卡一"></ik-tab-item>
+    <ik-tab-item label="选项卡二"></ik-tab-item>
+    <ik-tab-item label="选项卡第三个"></ik-tab-item>
+  </ik-tab>
   <br />
 
   <div v-loading="true">
@@ -42,7 +42,7 @@
 
   <br />
 
-<pd-switch :defaultValue="true"></pd-switch>
+<ik-switch :defaultValue="true"></ik-switch>
 <br />
 
 </div>

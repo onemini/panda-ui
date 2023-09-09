@@ -5,51 +5,51 @@
 ## 常见页面布局
 
 <div class="container-demo">
-  <pd-container class="container-column">
-    <pd-header class="demo1-header">header</pd-header>
-    <pd-main class="demo1-main">main</pd-main>
-  </pd-container>
+  <ik-container class="container-column">
+    <ik-header class="demo1-header">header</ik-header>
+    <ik-main class="demo1-main">main</ik-main>
+  </ik-container>
 </div>
 
 <br />
 <div class="container-demo">
-  <pd-container>
-    <pd-aside>aside</pd-aside>
-    <pd-container direction="ver">
-      <pd-header class="demo1-header">header</pd-header>
-      <pd-main class="demo1-main">main</pd-main>
-    </pd-container>
-  </pd-container>
+  <ik-container>
+    <ik-aside>aside</ik-aside>
+    <ik-container direction="ver">
+      <ik-header class="demo1-header">header</ik-header>
+      <ik-main class="demo1-main">main</ik-main>
+    </ik-container>
+  </ik-container>
 </div>
 
 <br />
 <div class="container-demo">
-  <pd-container>
-    <pd-aside>aside</pd-aside>
-    <pd-main class="demo1-main">main</pd-main>
-  </pd-container>
+  <ik-container>
+    <ik-aside>aside</ik-aside>
+    <ik-main class="demo1-main">main</ik-main>
+  </ik-container>
 </div>
 
 ::: details 点击展开
 
 ```html
-<pd-container>
-  <pd-header>header</pd-header>
-  <pd-main>main</pd-main>
-</pd-container>
+<ik-container>
+  <ik-header>header</ik-header>
+  <ik-main>main</ik-main>
+</ik-container>
 
-<pd-container>
-  <pd-aside>aside</pd-aside>
-  <pd-container direction="ver">
-    <pd-header>header</pd-header>
-    <pd-main>main</pd-main>
-  </pd-container>
-</pd-container>
+<ik-container>
+  <ik-aside>aside</ik-aside>
+  <ik-container direction="ver">
+    <ik-header>header</ik-header>
+    <ik-main>main</ik-main>
+  </ik-container>
+</ik-container>
 
-<pd-container>
-  <pd-aside>aside</pd-aside>
-  <pd-main>main</pd-main>
-</pd-container>
+<ik-container>
+  <ik-aside>aside</ik-aside>
+  <ik-main>main</ik-main>
+</ik-container>
 ```
 
 :::

@@ -4,7 +4,7 @@
 
 ## 总览
 
-PANDAUI（panda ui），个人兴趣爱好的产物，此库主要使用：
+IKUNUI（ikun ui），个人兴趣爱好的产物，此库主要使用：
 
 - 🐥 基于 TypeScript
 - ⚡ 基于 Vite
@@ -12,10 +12,10 @@ PANDAUI（panda ui），个人兴趣爱好的产物，此库主要使用：
 - ✨ monorepo 风格仓库
 
 ```bash
-npm install panda-ui
+npm install ikun-ui
 ```
 
 ```js
-import PandaUI from 'panda-ui'
-app.use(PandaUI)
+import ikun from 'ikun-ui'
+app.use(ikun)
 ```

@@ -1,0 +1,10 @@
+{
+  "name": "@ikui/theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.scss",
+  "module": "index.scss",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -2,7 +2,7 @@
 
 ## 基础使用
 
-<pd-button @click="onOpenModal">打开 modal</pd-button>
+<ik-button @click="onOpenModal">打开 modal</ik-button>
 
 ::: details 点击展开
 
@@ -15,16 +15,16 @@ const onOpenModal = () => {
 }
 </script>
 <template>
-  <pd-button @click="onOpenModal">打开 modal</pd-button>
-  <pd-modal :visible="show1" @click-mask="onOpenModal"> modal contents ... </pd-modal>
+  <ik-button @click="onOpenModal">打开 modal</ik-button>
+  <ik-modal :visible="show1" @click-mask="onOpenModal"> modal contents ... </ik-modal>
 </template>
 ```
 
 :::
 
-<pd-modal :visible="show1" @click-mask="onOpenModal">
+<ik-modal :visible="show1" @click-mask="onOpenModal">
 modal contents ...
-</pd-modal>
+</ik-modal>
 
 <script setup>
   import { ref } from 'vue'

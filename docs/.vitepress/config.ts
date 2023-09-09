@@ -5,7 +5,7 @@ import nav from './nav'
 
 export default {
   base: '/panda-ui/',
-  title: 'PANDA-UI',
+  title: 'IKUN-UI',
   lang: 'en-US',
   description: '组件库',
   head: [
@@ -14,7 +14,7 @@ export default {
       'link',
       {
         rel: 'alternate icon',
-        href: '/favicon.ico',
+        href: 'https://laine001.github.io/ikun-ui/favicon.ico',
         type: 'image/png',
         sizes: '32x32',
       },
@@ -25,7 +25,7 @@ export default {
     logo: '/layer5.png',
     footer: {
       message: 'MIT Licensed',
-      copyright: '©panda',
+      copyright: '©ikun',
     },
     search: {
       provider: 'local',
@@ -41,7 +41,7 @@ export default {
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/onemini/panda-ui',
+        link: 'https://github.com/LAINE001/ikun-ui',
       },
     ],
     nav,

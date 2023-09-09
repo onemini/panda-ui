@@ -8,11 +8,11 @@
 
 ```vue
 <template>
-  <pd-tab>
-    <pd-tab-item label="选项卡一">内容一</pd-tab-item>
-    <pd-tab-item label="选项卡二">内容二</pd-tab-item>
-    <pd-tab-item label="选项卡三">内容三</pd-tab-item>
-  </pd-tab>
+  <ik-tab>
+    <ik-tab-item label="选项卡一">内容一</ik-tab-item>
+    <ik-tab-item label="选项卡二">内容二</ik-tab-item>
+    <ik-tab-item label="选项卡三">内容三</ik-tab-item>
+  </ik-tab>
 </template>
 ```
 
@@ -26,11 +26,11 @@
 
 ```vue
 <template>
-  <pd-tab type="segmented">
-    <pd-tab-item label="选项卡一">内容一</pd-tab-item>
-    <pd-tab-item label="选项卡二">内容二</pd-tab-item>
-    <pd-tab-item label="选项卡三">内容三</pd-tab-item>
-  </pd-tab>
+  <ik-tab type="segmented">
+    <ik-tab-item label="选项卡一">内容一</ik-tab-item>
+    <ik-tab-item label="选项卡二">内容二</ik-tab-item>
+    <ik-tab-item label="选项卡三">内容三</ik-tab-item>
+  </ik-tab>
 </template>
 ```
 

@@ -2,8 +2,8 @@
 const fs = require('node:fs')
 const path = require('path')
 
-const target = path.resolve(__dirname, '../packages/components/package.json')
-const target2 = path.resolve(__dirname, '../packages/components/README.md')
+const target = path.resolve(__dirname, '../packages/ikui-components/package.json')
+const target2 = path.resolve(__dirname, '../packages/ikui-components/README.md')
 
 const content = fs.readFileSync(target, 'utf-8')
 // const currentVersion = JSON.parse(content).version

@@ -5,20 +5,20 @@
 ## 基础用法
 
 <div class="demo-box">
-<pd-card>
+<ik-card>
   <template #header>this is header</template>
   this is card content.
-</pd-card>
+</ik-card>
 </div>
 
 ::: details 点击查看源代码
 
 ```vue
 <template>
-  <pd-card>
+  <ik-card>
     <template #header>this is header</template>
     this is card content.
-  </pd-card>
+  </ik-card>
 </template>
 ```
 
@@ -27,16 +27,16 @@
 ## 简单用法
 
 <div class="demo-box">
-<pd-card>
+<ik-card>
   this is card content.
-</pd-card>
+</ik-card>
 </div>
 
 ::: details 点击查看源代码
 
 ```vue
 <template>
-  <pd-card> this is card content. </pd-card>
+  <ik-card> this is card content. </ik-card>
 </template>
 ```
 
@@ -45,28 +45,28 @@
 ## 阴影配置
 
 <div class="demo2-box">
-  <pd-space>
-    <pd-card>
+  <ik-space>
+    <ik-card>
       始终展示
-    </pd-card>
-    <pd-card shadow="hover">
+    </ik-card>
+    <ik-card shadow="hover">
       hover展示
-    </pd-card>
-    <pd-card shadow="none">
+    </ik-card>
+    <ik-card shadow="none">
       无阴影
-    </pd-card>
-  </pd-space>
+    </ik-card>
+  </ik-space>
 </div>
 
 ::: details 点击查看源代码
 
 ```vue
 <template>
-  <pd-space>
-    <pd-card> 始终展示 </pd-card>
-    <pd-card shadow="hover"> hover展示 </pd-card>
-    <pd-card shadow="none"> 无阴影 </pd-card>
-  </pd-space>
+  <ik-space>
+    <ik-card> 始终展示 </ik-card>
+    <ik-card shadow="hover"> hover展示 </ik-card>
+    <ik-card shadow="none"> 无阴影 </ik-card>
+  </ik-space>
 </template>
 ```
 
@@ -75,7 +75,7 @@
 ## 3D 悬浮效果
 
 <div style="width: 200px;">
-  <pd-card suspension :height="300">content...</pd-card>
+  <ik-card suspension :height="300">content...</ik-card>
 </div>
 
 <style>

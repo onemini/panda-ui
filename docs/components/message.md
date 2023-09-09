@@ -5,7 +5,7 @@
 直接传入文本可快速调用
 
 <div>
-  <pd-button @click="openMessage">显示消息</pd-button>
+  <ik-button @click="openMessage">显示消息</ik-button>
 </div>
 
 ::: details 点击展开
@@ -19,7 +19,7 @@
   }
 </script>
 <template>
-  <pd-button @click="openMessage">显示消息</pd-button>
+  <ik-button @click="openMessage">显示消息</ik-button>
 </template>
 ```
 
@@ -30,8 +30,8 @@
 message 有多个消息类型可用： `success`、`warning`、 `info`
 
 <div class="demo-box">
-  <pd-button type="success" @click="openMessage2">成功提示</pd-button>
-  <pd-button type="warning" @click="openMessage3">警告提示</pd-button>
+  <ik-button type="success" @click="openMessage2">成功提示</ik-button>
+  <ik-button type="warning" @click="openMessage3">警告提示</ik-button>
 </div>
 
 ::: details 点击展开
@@ -50,7 +50,7 @@ const openMessage3 = () => {
 ## 多个参数
 
 <div>
-  <pd-button type="primary" @click="openMessage4">提 示</pd-button>
+  <ik-button type="primary" @click="openMessage4">提 示</ik-button>
 </div>
 
 ::: details 点击展开
@@ -97,7 +97,7 @@ const openMessage4 = () => {
 </script>
 <style lang="scss">
   .demo-box {
-    .pd-button {
+    .ik-button {
       margin-right: 12px;
     }
   }

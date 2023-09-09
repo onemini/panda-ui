@@ -9,12 +9,12 @@
 ```vue
 <template>
   <div class="flex">
-    <div class="icon-demo-box"><pd-icon name="star-fill" color="#cd8025" /></div>
-    <div class="icon-demo-box"><pd-icon name="star-fill" color="#5aa4ae" /></div>
-    <div class="icon-demo-box"><pd-icon name="star-fill" color="#f29a76" /></div>
-    <div class="icon-demo-box"><pd-icon name="heart-fill" color="#b13b2e" /></div>
-    <div class="icon-demo-box"><pd-icon name="camera" color="#5c4f55" /></div>
-    <div class="icon-demo-box"><pd-icon name="camera" color="#a4abd6" /></div>
+    <div class="icon-demo-box"><ik-icon name="star-fill" color="#cd8025" /></div>
+    <div class="icon-demo-box"><ik-icon name="star-fill" color="#5aa4ae" /></div>
+    <div class="icon-demo-box"><ik-icon name="star-fill" color="#f29a76" /></div>
+    <div class="icon-demo-box"><ik-icon name="heart-fill" color="#b13b2e" /></div>
+    <div class="icon-demo-box"><ik-icon name="camera" color="#5c4f55" /></div>
+    <div class="icon-demo-box"><ik-icon name="camera" color="#a4abd6" /></div>
   </div>
 </template>
 ```
@@ -28,10 +28,10 @@
 ```vue
 <template>
   <div class="flex">
-    <div class="icon-demo-box"><pd-icon name="heart-fill" color="red" /></div>
-    <div class="icon-demo-box"><pd-icon name="heart-fill" color="red" :size="28" /></div>
-    <div class="icon-demo-box"><pd-icon name="heart-fill" color="red" :size="34" /></div>
-    <div class="icon-demo-box"><pd-icon name="heart-fill" color="red" :size="42" /></div>
+    <div class="icon-demo-box"><ik-icon name="heart-fill" color="red" /></div>
+    <div class="icon-demo-box"><ik-icon name="heart-fill" color="red" :size="28" /></div>
+    <div class="icon-demo-box"><ik-icon name="heart-fill" color="red" :size="34" /></div>
+    <div class="icon-demo-box"><ik-icon name="heart-fill" color="red" :size="42" /></div>
   </div>
 </template>
 ```
@@ -49,7 +49,7 @@ const list = [
   'email',
   'main',
   'user',
-  'lpdes',
+  'likes',
   'search',
   'chart',
   'add',
@@ -63,7 +63,7 @@ const list = [
 <template>
   <div class="flex">
     <template v-for="item in list">
-      <div class="icon-demo-box"><pd-icon :name="item" /></div>
+      <div class="icon-demo-box"><ik-icon :name="item" /></div>
     </template>
   </div>
 </template>
