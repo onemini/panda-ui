@@ -1,6 +1,6 @@
 {
   "name": "ikuiv",
-  "version": "0.0.1-alpha.5",
+  "version": "0.0.9-beta",
   "description": "a simple ui components built on vue3 vite",
   "main": "./index.js",
   "types": "index.d.ts",
