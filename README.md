@@ -1,17 +1,15 @@
 # vue3组件库
 
-**第五届青训营项目（队名：动态数组）**
+**组件库名称**：`panda-ui`
 
-**组件库名称**：`dtsz-ui`
-
-**github地址**：[zzyyhh22lx/dtsz-ui: vue3组件库-青训营项目 (github.com)](https://github.com/zzyyhh22lx/dtsz-ui)
+**github地址**：[onemini/panda-ui: vue3组件库-用来学习的项目 (github.com)](https://github.com/onemini/panda-ui)
 
 **技术栈：**`vue3、ts、scss、pnpm、vite`
 
 
 
 ```shell
-git clone git@github.com:zzyyhh22lx/dtsz-ui.git
+git clone git@github.com:onemini/panda-ui.git
 npm i pnpm -g
 pnpm install
 
@@ -41,7 +39,7 @@ pnpm i vue typescript -D
 创建 `.npmrc` 配置文件（作用：依赖扁平化）
 
 ```npmrc
-shamefully-hoist = true
+strict-peer-dependencies=false
 ```
 
 创建 `tsconfig.json` 文件
