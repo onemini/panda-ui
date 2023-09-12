@@ -1,4 +1,5 @@
 export default {
+  base: '/panda-ui/',
   themeConfig: {
     siteTitle: "Dtsz-ui🤣",
     footer: {
