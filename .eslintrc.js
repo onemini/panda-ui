@@ -5,20 +5,35 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:vue/vue3-essential',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended", // vue3解析 https://eslint.vuejs.org/
+    "plugin:@typescript-eslint/recommended",
+    "@vue/typescript/recommended",
   ],
-  overrides: [],
-  parser: 'vue-eslint-parser',
   parserOptions: {
-    ecmaVersion: 'latest',
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    parser: "@typescript-eslint/parser",
+    sourceType: "module",
   },
-  plugins: ['vue', '@typescript-eslint'],
+  plugins: ["vue", "@typescript-eslint"],
   rules: {
-    'vue/multi-word-component-names': 'off',
+    "vue/html-self-closing": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multi-word-component-names": "off",
+    "vue/prefer-import-from-vue": "off",
+    "vue/max-attributes-per-line": [
+      "warn",
+      {
+        singleline: {
+          max: 5,
+        },
+        multiline: {
+          max: 1,
+        },
+      },
+    ],
   },
-}
+  globals: {
+    defineOptions: "readonly",
+  },
+};

@@ -1,4 +1,2 @@
-/dev
-/dist
-*/node_modules/*
-**/node_modules/**
+packages/components/es
+packages/components/lib

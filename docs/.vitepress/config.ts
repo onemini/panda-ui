@@ -1,88 +1,45 @@
-import { demoBlockPlugin } from './vitepress-theme-demoblock/node'
-// import { demoblock as demoBlockPlugin } from './plugins/blockPlugin'
-import sidebar from './sidebar'
-import nav from './nav'
-
 export default {
-  base: '/panda-ui/',
-  title: 'IKUN-UI',
-  lang: 'en-US',
-  description: '组件库',
-  head: [
-    ['link', { rel: 'icon', href: '/layer5.png', type: 'image/png' }],
-    [
-      'link',
-      {
-        rel: 'alternate icon',
-        href: 'https://laine001.github.io/ikun-ui/favicon.ico',
-        type: 'image/png',
-        sizes: '32x32',
-      },
-    ],
-    // ['link', { rel: 'stylesheet', href: 'https://unpkg.com/nes.css/css/nes-core.min.css' }],
-  ],
   themeConfig: {
-    logo: '/layer5.png',
+    siteTitle: "Dtsz-ui🤣",
     footer: {
-      message: 'MIT Licensed',
-      copyright: '©ikun',
+      message: "快来加入Dtsz吧🤩<a>https://github.com/zzyyhh22lx/dtsz-ui</a>",
     },
-    search: {
-      provider: 'local',
-    },
-    // algolia: {
-    //   appId: '7H67QR5P0A',
-    //   apiKey: 'deaab78bcdfe96b599497d25acc6460e',
-    //   indexName: 'vitejs',
-    //   searchParameters: {
-    //     facetFilters: ['tags:cn'],
-    //   },
-    // },
-    socialLinks: [
+    sidebar: [
       {
-        icon: 'github',
-        link: 'https://github.com/LAINE001/ikun-ui',
+        text: "基本配置",
+        items: [{ text: "导入", link: "/component/index" }],
       },
-    ],
-    nav,
-    sidebar,
-  },
-  // async transformHead(ctx) {
-  //   console.log(ctx)
-  //   // return Promise.reject()
-  //   // return {
-  //   //   title: 'hellokitty'
-  //   // }
-  //   return new Promise((res) => {
-  //     res({
-  //       title: 'hellokitty',
-  //     })
-  //   })
-  // },
-  // async transformHtml(code, id, context) {},
-  markdown: {
-    theme: 'material-theme-palenight',
-    config: (md) => {
-      // console.log(md, 'md')
-      md.use(demoBlockPlugin)
-      // md.use(demoblock)
-      // demoblock(md)
-      // , {
-      //   customClass: 'demoblock-custom',
-      //   cssPreprocessor: 'scss',
-      //   // customStyleTagName: 'style lang="less"',
-      //   scriptImports: ["import * as ElementPlus from 'element-plus'"],
-      //   scriptReplaces: [
-      //     {
-      //       searchValue: /const ({ defineComponent as _defineComponent }) = Vue/g,
-      //       replaceValue: 'const { defineComponent: _defineComponent } = Vue',
-      //     },
-      //     { searchValue: /import ({.*}) from 'element-plus'/g, replaceValue: (s, s1) => `const ${s1} = ElementPlus` },
-      //   ],
-      //   styleReplaces: [
-      //     { searchValue: '@import "docs/styles/index.css";', replaceValue: '@import "@docs/styles/index.css";' },
-      //   ],
-      // }
-    },
-  },
+      {
+        text: "基础组件",
+        items: [
+          { text: "按钮", link: "/component/button" },
+          { text: "图标", link: "/component/icon" },
+          { text: "导航", link: "/component/nav" },
+          { text: "布局", link: "/component/layout" },
+          { text: "回到顶部", link: "/component/backToTop" },
+        ],
+      },
+      {
+        text: "反馈组件",
+          items: [
+              { text: "加载", link: "/component/loading" },
+            { text: '对话框', link: '/component/dialog' },
+              { text: '通知', link: '/component/notify' }
+          ],
+      },
+      {
+        text: "数据展示",
+        items: [
+          { text: '头像', link: '/component/avatar' },
+          { text: '图片', link: '/component/image' }
+        ]
+      },
+      {
+        text: '进阶组件',
+        items: [
+          { text: '环形进度条', link: '/component/progress' }
+        ]
+      }
+    ]
+  }
 }
