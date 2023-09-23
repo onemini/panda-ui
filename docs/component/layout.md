@@ -16,25 +16,25 @@
 ```vue
 <template>
     <div>
-        <dtsz-row :gutter="10">
-            <dtsz-col span="3"><div class="col-div"></div></dtsz-col>
-            <dtsz-col span="2"><div class="col-div"></div></dtsz-col>
-            <dtsz-col span="10"><div class="col-div"></div></dtsz-col>
-            <dtsz-col span="4"><div class="col-div"></div></dtsz-col>
-    </dtsz-row>
-    <dtsz-row :gutter="10">
-            <dtsz-col span="5"><div class="col-div"></div></dtsz-col>
-            <dtsz-col span="2"><div class="col-div"></div></dtsz-col>
-            <dtsz-col span="1"><div class="col-div"></div></dtsz-col>
-    </dtsz-row>
+        <pd-row :gutter="10">
+            <pd-col span="3"><div class="col-div"></div></pd-col>
+            <pd-col span="2"><div class="col-div"></div></pd-col>
+            <pd-col span="10"><div class="col-div"></div></pd-col>
+            <pd-col span="4"><div class="col-div"></div></pd-col>
+    </pd-row>
+    <pd-row :gutter="10">
+            <pd-col span="5"><div class="col-div"></div></pd-col>
+            <pd-col span="2"><div class="col-div"></div></pd-col>
+            <pd-col span="1"><div class="col-div"></div></pd-col>
+    </pd-row>
     </div>
 </template>
 
 <script lang="ts" setup>
 import { 
-    DtszRow,
-    DtszCol 
-  } from 'dtsz-ui'
+    PdRow,
+    PdCol 
+  } from 'panda-ui'
 </script>
 
 <style>

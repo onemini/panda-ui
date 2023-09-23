@@ -1,11 +1,11 @@
 <template>
-  <dtsz-button type="primary" @click="openDialog()">宽度</dtsz-button>
-  <DtszDialog width="80%" :dialog-visible="visible">
+  <pd-button type="primary" @click="openDialog()">宽度</pd-button>
+  <PdDialog width="80%" :dialog-visible="visible">
     <template #footer>
-      <dtsz-button type="primary" @click="close()">确定</dtsz-button>
-      <dtsz-button type="primary" @click="close()">取消</dtsz-button>
+      <pd-button type="primary" @click="close()">确定</pd-button>
+      <pd-button type="primary" @click="close()">取消</pd-button>
     </template>
-  </DtszDialog>
+  </PdDialog>
 </template>
 
 <script lang="ts" setup>

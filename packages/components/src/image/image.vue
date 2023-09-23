@@ -17,11 +17,11 @@
 
 <script setup lang="ts">
 import { imageProps } from './types/types'
-import { createNamespace } from "@dtsz-ui/utils/create"
+import { createNamespace } from "@panda-ui/utils/create"
 import { ref, reactive, watch, computed, onMounted, onBeforeUnmount, nextTick } from 'vue';
-import { isInContainer, isHtmlEl, getScrollContainer, on, off, throttle } from "@dtsz-ui/utils/util.js";
+import { isInContainer, isHtmlEl, getScrollContainer, on, off, throttle } from "@panda-ui/utils/util.js";
 
-const bem = createNamespace("image") // bem.b() 为 dtsz-avatar
+const bem = createNamespace("image") // bem.b() 为 pd-avatar
 const props = defineProps(imageProps);
 const emit = defineEmits(["error", "load"]);
 const state = reactive({
@@ -109,10 +109,10 @@ onBeforeUnmount(() => {
 
 <style lang="scss">
 // 导入全局 root 中的变量
-@use '@dtsz-ui/theme-chalk/src/var.scss' as *;
+@use '@panda-ui/theme-chalk/src/var.scss' as *;
 </style>
 <style lang="scss" scoped>
-@use '@dtsz-ui/theme-chalk/src/mixins.scss' as *;
+@use '@panda-ui/theme-chalk/src/mixins.scss' as *;
 
 @include b(avatar) {
     overflow: hidden;

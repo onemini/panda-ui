@@ -1,5 +1,5 @@
-import _DtszBackToTop from './DtszBTTop.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdBackToTop from './PdBTTop.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszBackToTop = withInstall(_DtszBackToTop)
-export default DtszBackToTop
+const PdBackToTop = withInstall(_PdBackToTop)
+export default PdBackToTop

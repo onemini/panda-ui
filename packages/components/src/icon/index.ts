@@ -1,5 +1,5 @@
 import icon from './icon.vue'
-import { withInstall } from '@dtsz-ui/utils/withinstall'
+import { withInstall } from '@panda-ui/utils/withinstall'
 
-const DIcon = withInstall(icon)
-export default DIcon 
+const PIcon = withInstall(icon)
+export default PIcon 

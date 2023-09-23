@@ -1,5 +1,5 @@
 {
-  "name": "dtsz-ui",
+  "name": "panda-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@dtsz-ui/utils": "workspace:^1.0.0"
+    "@panda-ui/utils": "workspace:^1.0.0"
   }
 }

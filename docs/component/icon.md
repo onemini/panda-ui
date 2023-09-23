@@ -4,7 +4,7 @@
 
 <div class="example">
     <div>
-        <d-icon name="edit"></d-icon>
+        <p-icon name="edit"></p-icon>
     </div>
 </div>
 
@@ -13,11 +13,11 @@
 ```html
 <template>
   <div>
-    <d-icon name="edit"></d-icon>
+    <p-icon name="edit"></p-icon>
   </div>
 </template>
 <script lang="ts" setup>
-import { DIcon } from 'dtsz-ui'
+import { PIcon } from 'panda-ui'
 </script>
 ```
 
@@ -28,7 +28,7 @@ import { DIcon } from 'dtsz-ui'
 <br/>
 <div class="example">
     <div>
-        <d-icon name="edit" dot badge="1" type="middle" />
+        <p-icon name="edit" dot badge="1" type="middle" />
     </div>
 </div>
 
@@ -37,11 +37,11 @@ import { DIcon } from 'dtsz-ui'
 ```html
 <template>
   <div>
-    <d-icon name="edit" dot badge="1" type="middle" ></d-icon>
+    <p-icon name="edit" dot badge="1" type="middle" ></p-icon>
   </div>
 </template>
 <script lang="ts" setup>
-import { DIcon } from 'dtsz-ui'
+import { PIcon } from 'panda-ui'
 </script>
 ```
 
@@ -51,83 +51,83 @@ import { DIcon } from 'dtsz-ui'
 
 <div class="icon_content">
     <div class="icon_list">
-        <d-icon name="edit"></d-icon>
+        <p-icon name="edit"></p-icon>
         <div class="icon_name">edit</div>
     </div>
     <div class="icon_list">
-        <d-icon name="discount"></d-icon>
+        <p-icon name="discount"></p-icon>
         <div class="icon_name">discount</div>
     </div>
         <div class="icon_list">
-        <d-icon name="direction-left"></d-icon>
+        <p-icon name="direction-left"></p-icon>
         <div class="icon_name">direction-left</div>
     </div>
         <div class="icon_list">
-        <d-icon name="eye-close"></d-icon>
+        <p-icon name="eye-close"></p-icon>
         <div class="icon_name">eye-close</div>
     </div>
         <div class="icon_list">
-        <d-icon name="email"></d-icon>
+        <p-icon name="email"></p-icon>
         <div class="icon_name">email</div>
     </div>
         <div class="icon_list">
-        <d-icon name="error"></d-icon>
+        <p-icon name="error"></p-icon>
         <div class="icon_name">error</div>
     </div>
         <div class="icon_list">
-        <d-icon name="favorite"></d-icon>
+        <p-icon name="favorite"></p-icon>
         <div class="icon_name">favorite</div>
     </div>
         <div class="icon_list">
-        <d-icon name="favorite"></d-icon>
+        <p-icon name="favorite"></p-icon>
         <div class="icon_name">favorite</div>
     </div>
         <div class="icon_list">
-        <d-icon name="file-common"></d-icon>
+        <p-icon name="file-common"></p-icon>
         <div class="icon_name">file-common</div>
     </div>
     <div class="icon_list">
-        <d-icon name="file-delete"></d-icon>
+        <p-icon name="file-delete"></p-icon>
         <div class="icon_name">file-delete</div>
     </div>
      <div class="icon_list">
-        <d-icon name="customer-service"></d-icon>
+        <p-icon name="customer-service"></p-icon>
         <div class="icon_name">customer-service</div>
     </div>
      <div class="icon_list">
-        <d-icon name="close"></d-icon>
+        <p-icon name="close"></p-icon>
         <div class="icon_name">close</div>
     </div>
     <div class="icon_list">
-        <d-icon name="add"></d-icon>
+        <p-icon name="add"></p-icon>
         <div class="icon_name">add</div>
     </div>
     <div class="icon_list">
-        <d-icon name="arrow-double-right"></d-icon>
+        <p-icon name="arrow-double-right"></p-icon>
         <div class="icon_name">arrow-double-right</div>
     </div>
     <div class="icon_list">
-        <d-icon name="back"></d-icon>
+        <p-icon name="back"></p-icon>
         <div class="icon_name">back</div>
     </div>
     <div class="icon_list">
-        <d-icon name="arrow-double-right"></d-icon>
+        <p-icon name="arrow-double-right"></p-icon>
         <div class="icon_name">arrow-double-right</div>
     </div>
     <div class="icon_list">
-        <d-icon name="file-add"></d-icon>
+        <p-icon name="file-add"></p-icon>
         <div class="icon_name">file-add</div>
     </div>
     <div class="icon_list">
-        <d-icon name="zhanghao"></d-icon>
+        <p-icon name="zhanghao"></p-icon>
         <div class="icon_name">zhanghao</div>
     </div>
     <div class="icon_list">
-        <d-icon name="bad"></d-icon>
+        <p-icon name="bad"></p-icon>
         <div class="icon_name">bad</div>
     </div>
     <div class="icon_list">
-        <d-icon name="bottom"></d-icon>
+        <p-icon name="bottom"></p-icon>
         <div class="icon_name">bottom</div>
     </div>
 </div>

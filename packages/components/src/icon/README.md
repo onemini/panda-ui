@@ -13,7 +13,7 @@
 
 ```
  <svg class="icon" aria-hidden="true">
-        <use xlink:href="dtsz-xxx"></use>
+        <use xlink:href="pd-xxx"></use>
     </svg>
 ```
 
@@ -36,7 +36,7 @@
     </div>
 </template>
 <script lang="ts" setup>
-import { Icon } from 'dtsz-ui'
+import { Icon } from 'panda-ui'
 
 </script>
 <style lang="less">
@@ -79,11 +79,11 @@ export type IconProps = ExtractPropTypes<typeof iconProps>
 
 ```
 <template>
-    <div class="dtsz-icon">
+    <div class="pd-icon">
         <svg class="icon" aria-hidden="true">
             <use :xlink:href="iconName"></use>
         </svg>
-        <div v-if="dot" class="dtsz-info" :class="styleDot">{{ badge }}</div>
+        <div v-if="dot" class="pd-info" :class="styleDot">{{ badge }}</div>
     </div>
 </template>
  <script lang="ts">
@@ -95,11 +95,11 @@ export type IconProps = ExtractPropTypes<typeof iconProps>
      props: iconProps,
      setup(props) {
          const iconName = computed(() => {
-             return `#dtsz-${props.name}`
+             return `#pd-${props.name}`
          })
          const styleDot = computed(() => {
              return {
-                 [`dtsz-dot`]: props.dot && !props.badge
+                 [`pd-dot`]: props.dot && !props.badge
              }
          })
          const badge = computed(() => {
@@ -118,10 +118,10 @@ export type IconProps = ExtractPropTypes<typeof iconProps>
 组件通过dot和badge来赋予徽标不同class，对应类名样式如下
 
 ```
-.dtsz-icon {
+.pd-icon {
   display: inline-block;
   position: relative;
-  .dtsz-info {
+  .pd-info {
     position: absolute;
     top: 8px;
     right: 0;
@@ -138,7 +138,7 @@ export type IconProps = ExtractPropTypes<typeof iconProps>
     background-color: #ee0a24;
     transform: translate(50%, -50%);
   }
-  .dtsz-dot {
+  .pd-dot {
     width: 8px;
     min-width: 0;
     height: 8px;
@@ -159,11 +159,11 @@ App.vue中使用
     </div>
 </template>
 <script lang="ts" setup>
-import { Icon } from 'dtsz-ui'
+import { Icon } from 'panda-ui'
 
 </script>
 <style lang="less">
-.dtsz-icon {
+.pd-icon {
     font-size: 36px;
     color: #666;
     margin-right: 20px;
@@ -185,7 +185,7 @@ Icon的color属性用来设置图标的颜色。这个比较好实现，这里�
 ```
 //icon.vue
 <template>
-    <div class="dtsz-icon">
+    <div class="pd-icon">
         <svg class="icon" :style="iconColor" aria-hidden="true">
             <use :xlink:href="iconName"></use>
         </svg>
@@ -224,11 +224,11 @@ App.vue中使用
     </div>
 </template>
 <script lang="ts" setup>
-import { Icon } from 'dtsz-ui'
+import { Icon } from 'panda-ui'
 
 </script>
 <style lang="less">
-.dtsz-icon {
+.pd-icon {
     font-size: 36px;
     color: #666;
     margin-right: 20px;

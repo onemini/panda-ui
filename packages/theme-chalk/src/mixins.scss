@@ -1,7 +1,7 @@
 @use 'config' as *;
 @forward 'config';
 
-// dtsz-icon
+// pd-icon
 @mixin b($block) {
   $B: $namespace + '-' + $block;
   .#{$B} {
@@ -9,7 +9,7 @@
   }
 }
 
-// dtsz-icon.is-xxx
+// pd-icon.is-xxx
 @mixin when($state) {
   @at-root {
     &.#{$state-prefix + $state} {
@@ -18,7 +18,7 @@
   }
 }
 
-// .dtsz-icon--primary
+// .pd-icon--primary
 @mixin m($modifier) {
   @at-root {
     #{& + $modifier-separator + $modifier} {
@@ -27,7 +27,7 @@
   }
 }
 
-// dtsz-icon__header
+// pd-icon__header
 @mixin e($element) {
   @at-root {
     #{& + $element-separator + $element} {

@@ -5,7 +5,7 @@ export const Type = [ 'success', 'warning', 'error']
  * @param type 定义按钮的类型 可选值为 'primary' | 'success' | 'info' | 'warning' | 'danger'
  * @param size 定义按钮的大小 默认middle 可选值为 'large' | 'middle' | 'small' | 'mini'
 */
-export const DtszNotifyProps = {
+export const PdNotifyProps = {
       type: {
     type: String,
     validator(value: string) {
@@ -31,4 +31,4 @@ export const DtszNotifyProps = {
     }
 }
 
-export type DtszNotifyProps = ExtractPropTypes<typeof DtszNotifyProps>
+export type PdNotifyProps = ExtractPropTypes<typeof PdNotifyProps>

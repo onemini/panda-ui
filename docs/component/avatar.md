@@ -18,13 +18,13 @@ Avatar 组件可以用来代表人物或对象， 支持使用图片、图标或
         <div class="sub-title">circle</div>
         <div class="demo-basic--circle">
             <div v-for="size in sizeList" :key="size" class="block">
-                <dtsz-avatar shape="circle" :size="size" :src="circleUrl" />
+                <pd-avatar shape="circle" :size="size" :src="circleUrl" />
             </div>
         </div>
         <div class="sub-title">square</div>
         <div class="demo-basic--circle">
             <div v-for="size in sizeList" :key="size" class="block">
-                <dtsz-avatar shape="square" :size="size" :src="squareUrl" />
+                <pd-avatar shape="square" :size="size" :src="squareUrl" />
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@ const { circleUrl, squareUrl, sizeList } = toRefs(state)
 <br/>
 <div class="example">
     <div>
-        <dtsz-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></dtsz-avatar>
+        <pd-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></pd-avatar>
     </div>
 </div>
 
@@ -57,12 +57,12 @@ const { circleUrl, squareUrl, sizeList } = toRefs(state)
 <template>
 <div class="example">
     <div>
-        <dtsz-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></dtsz-avatar>
+        <pd-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></pd-avatar>
     </div>
 </div>
 </template>
 <script lang="ts" setup>
-import { DtszAvatar } from 'dtsz-ui'
+import { PdAvatar } from 'panda-ui'
 </script>
 ```
 
@@ -73,14 +73,14 @@ import { DtszAvatar } from 'dtsz-ui'
 ```vue
 <template>
 <template>
-      <dtsz-avatar src="https://empty" @error="handleError">
+      <pd-avatar src="https://empty" @error="handleError">
         <img
           src="https://cube.elemecdn.com/e/fd/0fc7d20532fdaf769a25683617711png.png"
         />
-    </dtsz-avatar>
+    </pd-avatar>
 </template>
 <script lang="ts" setup>
-import { DtszAvatar } from 'dtsz-ui'
+import { PdAvatar } from 'panda-ui'
 const handleError = () => true;
 </script>
 ```

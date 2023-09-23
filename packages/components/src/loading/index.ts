@@ -1,5 +1,5 @@
 import { createApp, DirectiveBinding } from "vue";
-import DtszLoading from "./Loading.vue";
+import PdLoading from "./Loading.vue";
 
 const relative = "g-relative";
 const hidden = "g-hidden";
@@ -69,11 +69,11 @@ const remove = (el: any, binding: DirectiveBinding) => {
 const directives = (el: any) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let path: any;
-  if (el.getAttribute("dtsz-loading-text")) {
-    el.instance.setText(el.getAttribute("dtsz-loading-text"));
+  if (el.getAttribute("pd-loading-text")) {
+    el.instance.setText(el.getAttribute("pd-loading-text"));
   }
 
-  if (el.getAttribute("dtsz-loading-spinner")) {
+  if (el.getAttribute("pd-loading-spinner")) {
     if (!el.lastChild.firstChild.firstChild) {
       return;
     }
@@ -81,7 +81,7 @@ const directives = (el: any) => {
     if (circle && circle.nodeName !== "#text") {
       circle.insertAdjacentHTML(
         "beforebegin",
-        el.getAttribute("dtsz-loading-spinner")
+        el.getAttribute("pd-loading-spinner")
       );
       path = circle.parentNode.childNodes[1];
       circle.remove();
@@ -114,19 +114,19 @@ const directives = (el: any) => {
       }
     }
   }
-  if (el.getAttribute("dtsz-loading-svg-view-box")) {
+  if (el.getAttribute("pd-loading-svg-view-box")) {
     const circular = el.lastChild.firstChild.firstChild;
     if (circular) {
       circular.setAttribute(
         "viewBox",
-        el.getAttribute("dtsz-loading-svg-view-box")
+        el.getAttribute("pd-loading-svg-view-box")
       );
     }
   }
-  if (el.getAttribute("dtsz-loading-background")) {
+  if (el.getAttribute("pd-loading-background")) {
     const mask = el.lastChild;
     if (mask) {
-      mask.style.backgroundColor = el.getAttribute("dtsz-loading-background");
+      mask.style.backgroundColor = el.getAttribute("pd-loading-background");
     }
   }
 };
@@ -134,7 +134,7 @@ const directives = (el: any) => {
 export const loadingDirective = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   mounted(el: any, binding: DirectiveBinding) {
-    const app = createApp(DtszLoading);
+    const app = createApp(PdLoading);
     const instance = app.mount(document.createElement("div"));
     el.instance = instance;
 

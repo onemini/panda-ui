@@ -1,12 +1,12 @@
 <template>
   <br />
-  <DtszButton
+  <PdButton
     v-loading.fullscreen.lock="loading"
-    dtsz-loading-text="Loading..."
+    pd-loading-text="Loading..."
     type="primary"
     size="mini"
     @click="showLoading"
-  ></DtszButton>
+  ></PdButton>
 </template>
 
 <script setup lang="ts">

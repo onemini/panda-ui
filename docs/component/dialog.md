@@ -18,11 +18,11 @@
 ```vue
 <template>
   <div>
-    <DtszDialog width="80%" :dialog-visible="visible"> </DtszDialog>
+    <PdDialog width="80%" :dialog-visible="visible"> </PdDialog>
   </div>
 </template>
 <script lang="ts" setup>
-import { DtszDialog } from 'dtsz-ui'
+import { PdDialog } from 'panda-ui'
 import { ref } from 'vue'
 const visible = ref(false)
 function openDialog() {
@@ -47,19 +47,19 @@ function openDialog() {
 ```vue
 <template>
   <div>
-    <DtszDialog :dialog-visible="visible">
+    <PdDialog :dialog-visible="visible">
       <template #title>
         <h3>我是标题</h3>
       </template>
       <template #footer>
-        <dtsz-button type="primary" @click="close()">确定</dtsz-button>
-        <dtsz-button type="primary" @click="close()">取消</dtsz-button>
+        <pd-button type="primary" @click="close()">确定</pd-button>
+        <pd-button type="primary" @click="close()">取消</pd-button>
       </template>
-    </DtszDialog>
+    </PdDialog>
   </div>
 </template>
 <script lang="ts" setup>
-import { DtszDialog } from 'dtsz-ui'
+import { PdDialog } from 'panda-ui'
 const visible = ref(false)
 function openDialog() {
   visible.value = true

@@ -1,35 +1,35 @@
 // .vitepress/theme/index.js
 import DefaultTheme from "vitepress/theme";
 import {
-  DtszButton,
-  DProgressbar,
-  DIcon,
-  DtszAvatar,
-  DtszImage,
-  DtszDialog,
-  DtszNotify,
-  DtszBackToTop,
-  DtszNav,
-  DtszRow,
-  DtszCol,
-} from "dtsz-ui";
-import { loadingDirective } from "dtsz-ui/src/loading/index";
+  PdButton,
+  PProgressbar,
+  PIcon,
+  PdAvatar,
+  PdImage,
+  PdDialog,
+  PdNotify,
+  PdBackToTop,
+  PdNav,
+  PdRow,
+  PdCol,
+} from "panda-ui";
+import { loadingDirective } from "panda-ui/src/loading/index";
 
 export default {
   ...DefaultTheme,
   NotFound: () => "custom 404",
   enhanceApp({ app }) {
-    app.component("DtszButton", DtszButton);
-    app.component("DProgressbar", DProgressbar);
-    app.component("DIcon", DIcon);
-    app.component("DtszAvatar", DtszAvatar);
-    app.component("DtszImage", DtszImage);
+    app.component("PdButton", PdButton);
+    app.component("PProgressbar", PProgressbar);
+    app.component("PIcon", PIcon);
+    app.component("PdAvatar", PdAvatar);
+    app.component("PdImage", PdImage);
     app.directive("loading", loadingDirective);
-    app.component('DtszDialog', DtszDialog)
-    app.component('DtszNotify', DtszNotify)
-    app.component("DtszBackToTop", DtszBackToTop);
-    app.component("DtszRow", DtszRow);
-    app.component('DtszNav', DtszNav)
-    app.component('DtszCol', DtszCol)
+    app.component('PdDialog', PdDialog)
+    app.component('PdNotify', PdNotify)
+    app.component("PdBackToTop", PdBackToTop);
+    app.component("PdRow", PdRow);
+    app.component('PdNav', PdNav)
+    app.component('PdCol', PdCol)
   },
 };

@@ -1,12 +1,12 @@
 <template>
-  <dtsz-button type="primary" @click="openNotify()">通知</dtsz-button>
-  <DtszNotify
+  <pd-button type="primary" @click="openNotify()">通知</pd-button>
+  <PdNotify
     @NotifyVisibleValue="NotifyVisibleValue"
     :notifyVisible="NotifyVisible"
     width="400px"
     type="warning"
   >
-  </DtszNotify>
+  </PdNotify>
 </template>
 
 <script lang="ts" setup>

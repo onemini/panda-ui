@@ -6,7 +6,7 @@ export default defineConfig(
         build: {
             target: 'modules',
             //打包文件目录
-            outDir: "es",
+            outDir: "dist",
             //压缩
             minify: false,
             //css分离
@@ -23,7 +23,7 @@ export default defineConfig(
                         //让打包目录和我们目录对应
                         preserveModules: true,
                         //配置打包根目录
-                        dir: 'es',
+                        dir: 'dist/es',
                         preserveModulesRoot: 'src'
                     },
                     {
@@ -32,7 +32,7 @@ export default defineConfig(
                         //让打包目录和我们目录对应
                         preserveModules: true,
                         //配置打包根目录
-                        dir: 'lib',
+                        dir: 'dist/lib',
                         preserveModulesRoot: 'src'
                     }
                 ]
@@ -50,7 +50,7 @@ export default defineConfig(
             }),
             //因为这个插件默认打包到es下，我们想让lib目录下也生成声明文件需要再配置一个
             dts({
-                outputDir:'lib',
+                outputDir:'dist/lib',
                 tsConfigFilePath: '../../tsconfig.json'
             })
         ]

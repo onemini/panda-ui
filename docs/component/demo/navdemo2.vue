@@ -1,5 +1,5 @@
 <template>
     <div>
-      <dtsz-nav type="whiteColor"></dtsz-nav>
+      <pd-nav type="whiteColor"></pd-nav>
     </div>
   </template>

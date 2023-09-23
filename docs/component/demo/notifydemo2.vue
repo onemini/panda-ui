@@ -1,11 +1,11 @@
 <template>
-  <dtsz-button type="success" @click="openNotify()">位置修改</dtsz-button>
-  <DtszNotify
+  <pd-button type="success" @click="openNotify()">位置修改</pd-button>
+  <PdNotify
     @NotifyVisibleValue="NotifyVisibleValue"
     :notifyVisible="NotifyVisible"
     position="top-left"
   >
-  </DtszNotify>
+  </PdNotify>
 </template>
 
 <script lang="ts" setup>

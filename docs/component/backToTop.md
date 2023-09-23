@@ -15,12 +15,12 @@
 ```vue
 <template>
     <div>
-        <dtsz-backToTop rightLen="50px" bottomLen="50px"></dtsz-backToTop>
+        <pd-backToTop rightLen="50px" bottomLen="50px"></pd-backToTop>
     </div>
 </template>
 
 <script lang="ts" setup>
-import { DtszBackToTop } from 'dtsz-ui'
+import { PdBackToTop } from 'panda-ui'
 </script>
 
 <style>

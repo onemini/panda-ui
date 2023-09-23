@@ -7,7 +7,7 @@
         inset_bgc="black"
         outset_bgc="red"
       >
-        DTSZ
+        pd
       </DProgressbar>
     </div>
     <br>

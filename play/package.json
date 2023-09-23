@@ -11,7 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@dtsz-ui/theme-chalk": "workspace:^1.0.0",
-    "dtsz-ui": "workspace:^1.0.0"
+    "@panda-ui/theme-chalk": "workspace:^1.0.0",
+    "panda-ui": "workspace:^1.0.0"
   }
 }

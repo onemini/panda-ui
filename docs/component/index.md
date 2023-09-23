@@ -1,13 +1,13 @@
 # 开始
 
-## 安装dtsz-ui
+## 安装panda-ui
 
 ```shell
-npm i dtsz-ui
+npm i panda-ui
 ```
 
 ## 支持按需导入和全部导入
 
 ```js
-import { xxx } from 'dtsz-ui'
+import { xxx } from 'panda-ui'
 ```

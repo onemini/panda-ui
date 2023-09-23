@@ -1,9 +1,9 @@
 export default {
   base: '/panda-ui/',
   themeConfig: {
-    siteTitle: "Dtsz-ui🤣",
+    siteTitle: "Panda-ui🤣",
     footer: {
-      message: "快来加入Dtsz吧🤩<a>https://github.com/zzyyhh22lx/dtsz-ui</a>",
+      message: "快来加入Panda吧🤩<a>https://github.com/onemini/panda-ui</a>",
     },
     sidebar: [
       {

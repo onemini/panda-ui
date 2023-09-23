@@ -5,7 +5,7 @@ import { ExtractPropTypes } from 'vue'
  * @param type 定义按钮的类型 可选值为 'primary' | 'success' | 'info' | 'warning' | 'danger'
  * @param size 定义按钮的大小 默认middle 可选值为 'large' | 'middle' | 'small' | 'mini'
 */
-export const DtszDialogProps = {
+export const PdDialogProps = {
   title: {
         type: String,
           default: 'Tips'
@@ -20,4 +20,4 @@ export const DtszDialogProps = {
     }
 }
 
-export type DtszDialogProps = ExtractPropTypes<typeof DtszDialogProps>
+export type PdDialogProps = ExtractPropTypes<typeof PdDialogProps>

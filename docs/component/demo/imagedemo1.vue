@@ -2,7 +2,7 @@
     <div class="demo-image">
       <div v-for="fit in fits" :key="fit" class="block">
         <span class="demonstration">{{ fit }}</span>
-        <dtsz-image :width="100" :height="100" :src="url" :fit="fit" />
+        <pd-image :width="100" :height="100" :src="url" :fit="fit" />
       </div>
     </div>
   </template>

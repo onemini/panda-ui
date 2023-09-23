@@ -14,12 +14,12 @@
 ```vue
 <template>
     <div>
-        <dtsz-nav type="blackColor"></dtsz-nav>
+        <pd-nav type="blackColor"></pd-nav>
     </div>
 </template>
 
 <script lang="ts" setup>
-import { DtszNav } from 'dtsz-ui'
+import { PdNav } from 'panda-ui'
 </script>
 ```
 

@@ -1,6 +1,6 @@
 <template>
     <div class="demo-image__lazy">
-      <dtsz-image v-for="url in urls" :key="url" :src="url" lazy />
+      <pd-image v-for="url in urls" :key="url" :src="url" lazy />
     </div>
   </template>
   

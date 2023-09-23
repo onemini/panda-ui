@@ -1,5 +1,5 @@
 <template>
-  <div class="dtsz-icon">
+  <div class="pd-icon">
     <svg
       :class="[bem.m(type)]"
       class="icon"
@@ -10,7 +10,7 @@
     </svg>
     <div
       v-if="dot"
-      class="dtsz-info"
+      class="pd-info"
       :class="[styleDot, bem.e(type)]"
     >
       {{ badge }}
@@ -20,12 +20,12 @@
 <script lang="ts">
 import { defineComponent, computed, onMounted } from 'vue'
 import { iconProps } from './types/types'
-import { createNamespace } from "@dtsz-ui/utils/create"
+import { createNamespace } from "@panda-ui/utils/create"
 
 export default defineComponent({
     props: iconProps,
     setup(props) {
-        const bem = createNamespace("icon") // bem.b() 为 dtsz-button
+        const bem = createNamespace("icon") // bem.b() 为 pd-button
         onMounted(() => {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             import('./font/iconfont.js' as any)
@@ -35,7 +35,7 @@ export default defineComponent({
         })
         const styleDot = computed(() => {
             return {
-                [`dtsz-dot`]: props.dot && !props.badge
+                [`pd-dot`]: props.dot && !props.badge
             }
         })
         const badge = computed(() => {
@@ -58,7 +58,7 @@ export default defineComponent({
 });
 </script>
 <style lang="scss" scoped>
-@use '@dtsz-ui/theme-chalk/src/mixins.scss' as *;
+@use '@panda-ui/theme-chalk/src/mixins.scss' as *;
 .icon {
   width: 1em;
   height: 1em;
@@ -67,7 +67,7 @@ export default defineComponent({
   overflow: hidden;
 }
 
-.dtsz-icon {
+.pd-icon {
   display: inline-block;
   position: relative;
   vertical-align: -0.15em;
@@ -89,7 +89,7 @@ export default defineComponent({
     height: 1em;
 	}
 
-  .dtsz-dot {
+  .pd-dot {
     width: 8px;
     min-width: 0;
     height: 8px;
@@ -121,7 +121,7 @@ export default defineComponent({
     line-height: 1.2!important;
 	}
 }
-.dtsz-info {
+.pd-info {
     position: absolute;
     top: 8px;
     right: 0;

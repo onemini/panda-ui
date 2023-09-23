@@ -1,6 +1,6 @@
-import _DtszCol from './DtszCol.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdCol from './PdCol.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszCol = withInstall(_DtszCol)
+const PdCol = withInstall(_PdCol)
 
-export default DtszCol
+export default PdCol

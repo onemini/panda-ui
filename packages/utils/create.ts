@@ -4,8 +4,8 @@
 // element 元素
 // modifier 装饰
 
-// dtsz-button
-// dtsz-button__element--disable
+// pd-button
+// pd-button__element--disable
 
 /**
  *
@@ -72,14 +72,14 @@ function createBEM(prefixName: string) {
    *
    * @param prefixName 前缀
    * @param (var bem = createNamespace("button"))
-   * @param (bem.b()) --> dtsz-button
-   * @param (bem.e("hy")) --> dtsz-button__hy
-   * @param (bem.m("primary")) --> dtsz-button--primary
+   * @param (bem.b()) --> pd-button
+   * @param (bem.e("hy")) --> pd-button__hy
+   * @param (bem.m("primary")) --> pd-button--primary
    * @param (bem.is("checked", true)) --> is-checked
-   * @param (bem.bem("success", "element", "disabled")) --> dtsz-button-success__element--disabled
+   * @param (bem.bem("success", "element", "disabled")) --> pd-button-success__element--disabled
    * @returns
    */ 
 export function createNamespace(name: string) {
-    const prefixName = `dtsz-${name}`;
+    const prefixName = `pd-${name}`;
     return createBEM(prefixName);
 }

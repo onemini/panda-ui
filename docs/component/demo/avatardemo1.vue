@@ -3,13 +3,13 @@
         <div class="sub-title">circle</div>
         <div class="demo-basic--circle">
           <div v-for="size in sizeList" :key="size" class="block">
-            <dtsz-avatar shape="circle" :size="size" :src="circleUrl" />
+            <pd-avatar shape="circle" :size="size" :src="circleUrl" />
           </div>
         </div>
         <div class="sub-title">square</div>
         <div class="demo-basic--circle">
           <div v-for="size in sizeList" :key="size" class="block">
-            <dtsz-avatar shape="square" :size="size" :src="squareUrl" />
+            <pd-avatar shape="square" :size="size" :src="squareUrl" />
           </div>
         </div>
     </div>

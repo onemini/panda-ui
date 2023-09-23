@@ -1,5 +1,5 @@
-import _DtszDialog from './DtszDialog.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdDialog from './PdDialog.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszDialog = withInstall(_DtszDialog)
-export default DtszDialog
+const PdDialog = withInstall(_PdDialog)
+export default PdDialog

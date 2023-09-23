@@ -8,13 +8,13 @@ importers:
 
   .:
     dependencies:
-      '@dtsz-ui/theme-chalk':
+      '@panda-ui/theme-chalk':
         specifier: workspace:^1.0.0
         version: link:packages/theme-chalk
-      '@dtsz-ui/utils':
+      '@panda-ui/utils':
         specifier: workspace:^1.0.0
         version: link:packages/utils
-      dtsz-ui:
+      panda-ui:
         specifier: workspace:^1.0.0
         version: link:packages/components
       sass:
@@ -87,13 +87,13 @@ importers:
 
   docs:
     dependencies:
-      dtsz-ui:
+      panda-ui:
         specifier: workspace:^1.0.0
         version: link:../packages/components
 
   packages/components:
     dependencies:
-      '@dtsz-ui/utils':
+      '@panda-ui/utils':
         specifier: workspace:^1.0.0
         version: link:../utils
 
@@ -103,10 +103,10 @@ importers:
 
   play:
     dependencies:
-      '@dtsz-ui/theme-chalk':
+      '@panda-ui/theme-chalk':
         specifier: workspace:^1.0.0
         version: link:../packages/theme-chalk
-      dtsz-ui:
+      panda-ui:
         specifier: workspace:^1.0.0
         version: link:../packages/components
 

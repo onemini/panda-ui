@@ -9,11 +9,11 @@
 <div class="example">
     <div>
         <DtsButton></DtsButton>
-        <DtszButton type="success">success</DtszButton>
-        <DtszButton type="primary">primary</DtszButton>
-        <DtszButton type="info">info</DtszButton>
-        <DtszButton type="danger">danger</DtszButton>
-        <DtszButton type="warning">warning</DtszButton>
+        <PdButton type="success">success</PdButton>
+        <PdButton type="primary">primary</PdButton>
+        <PdButton type="info">info</PdButton>
+        <PdButton type="danger">danger</PdButton>
+        <PdButton type="warning">warning</PdButton>
     </div>
 </div>
 
@@ -22,16 +22,16 @@
 ```vue
 <template>
   <div>
-    <dtsz-button></dtsz-button>
-    <dtsz-button type="success">success</dtsz-button>
-    <dtsz-button type="primary">primary</dtsz-button>
-    <dtsz-button type="info">info</dtsz-button>
-    <dtsz-button type="danger">danger</dtsz-button>
-    <dtsz-button type="warning">warning</dtsz-button>
+    <pd-button></pd-button>
+    <pd-button type="success">success</pd-button>
+    <pd-button type="primary">primary</pd-button>
+    <pd-button type="info">info</pd-button>
+    <pd-button type="danger">danger</pd-button>
+    <pd-button type="warning">warning</pd-button>
   </div>
 </template>
 <script lang="ts" setup>
-import { DtszButton } from 'dtsz-ui'
+import { PdButton } from 'panda-ui'
 </script>
 ```
 
@@ -41,7 +41,7 @@ import { DtszButton } from 'dtsz-ui'
 
 <br>
 <div class="expamle">
-  <dtsz-button type="danger" round disabled></dtsz-button>
+  <pd-button type="danger" round disabled></pd-button>
 </div>
 
 ::: details 显示代码
@@ -49,11 +49,11 @@ import { DtszButton } from 'dtsz-ui'
 ```vue
 <template>
   <div>
-    <dtsz-button type="danger" round disabled></dtsz-button>
+    <pd-button type="danger" round disabled></pd-button>
   </div>
 </template>
 <script lang="ts" setup>
-import { DtszButton } from 'dtsz-ui'
+import { PdButton } from 'panda-ui'
 </script>
 ```
 
@@ -62,18 +62,18 @@ import { DtszButton } from 'dtsz-ui'
 ### 不同大小
 
 <br>
-<dtsz-button size="mini"></dtsz-button>
+<pd-button size="mini"></pd-button>
 
 ::: details 显示代码
 
 ```vue
 <template>
   <div>
-    <dtsz-button size="mini"></dtsz-button>
+    <pd-button size="mini"></pd-button>
   </div>
 </template>
 <script lang="ts" setup>
-import { DtszButton } from 'dtsz-ui'
+import { PdButton } from 'panda-ui'
 </script>
 ```
 

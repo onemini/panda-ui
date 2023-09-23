@@ -4,7 +4,7 @@
 
 ### 区域加载
 
-dtsz 组件库使用自定义指令`v-loading`，在`v-loading`上绑定布尔值即可使用。
+pd 组件库使用自定义指令`v-loading`，在`v-loading`上绑定布尔值即可使用。
 
 Loading 遮罩会插入到绑定元素的子节点。
 
@@ -18,7 +18,7 @@ Loading 遮罩会插入到绑定元素的子节点。
 
 ```vue
 <template>
-  <div v-loading="true" dtsz-loading-text="Loading...">
+  <div v-loading="true" pd-loading-text="Loading...">
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
       veritatis saepe, exercitationem illo at ea consectetur nam dolorum
@@ -47,10 +47,10 @@ Loading 遮罩会插入到绑定元素的子节点。
 <template>
   <div
     v-loading="true"
-    dtsz-loading-text="Loading..."
-    :dtsz-loading-spinner="svg"
-    dtsz-loading-svg-view-box="-10, -10, 50, 50"
-    dtsz-loading-background="rgba(122, 122, 122, 0.8)"
+    pd-loading-text="Loading..."
+    :pd-loading-spinner="svg"
+    pd-loading-svg-view-box="-10, -10, 50, 50"
+    pd-loading-background="rgba(122, 122, 122, 0.8)"
   >
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -91,13 +91,13 @@ const svg = `
 
 ```vue
 <template>
-  <DtszButton
+  <PdButton
     v-loading.fullscreen.lock="loading"
-    dtsz-loading-text="Loading..."
+    pd-loading-text="Loading..."
     type="primary"
     size="mini"
     @click="showLoading"
-  ></DtszButton>
+  ></PdButton>
 </template>
 
 <script setup lang="ts">
@@ -128,9 +128,9 @@ const showLoading = () => {
 | 名称                    | 说明                         | 类型    |
 | ----------------------- | ---------------------------- | ------- |
 | v-loading               | 是否显示加载动画             | boolean |
-| dtsz-loading-text       | 显示在加载图标下方的加载文案 | string  |
-| dtsz-loading-spinner    | 自定义加载图标               | string  |
-| dtsz-loading-background | 背景遮罩的颜色               | string  |
+| pd-loading-text       | 显示在加载图标下方的加载文案 | string  |
+| pd-loading-spinner    | 自定义加载图标               | string  |
+| pd-loading-background | 背景遮罩的颜色               | string  |
 
 <script setup lang="ts">
   import LoadingDemo1 from './demo/loadingDemo1.vue'

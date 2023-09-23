@@ -1,5 +1,5 @@
-import _DtszImage from './image.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdImage from './image.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszImage = withInstall(_DtszImage)
-export default DtszImage
+const PdImage = withInstall(_PdImage)
+export default PdImage

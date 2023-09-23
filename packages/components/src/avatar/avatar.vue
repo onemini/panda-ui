@@ -7,11 +7,11 @@
 
 <script setup lang="ts">
 import { avatarProps } from './types/types'
-import { createNamespace } from "@dtsz-ui/utils/create"
+import { createNamespace } from "@panda-ui/utils/create"
 import { onMounted, ref, watch } from 'vue';
 
 const hasLoadError = ref(false);
-const bem = createNamespace("avatar"); // bem.b() 为 dtsz-avatar
+const bem = createNamespace("avatar"); // bem.b() 为 pd-avatar
 const props = defineProps(avatarProps);
 const emits = defineEmits(["error"]);
 
@@ -40,10 +40,10 @@ onMounted(() => {
 
 <style lang="scss">
 // 导入全局 root 中的变量
-@use '@dtsz-ui/theme-chalk/src/var.scss' as *;
+@use '@panda-ui/theme-chalk/src/var.scss' as *;
 </style>
 <style lang="scss" scoped>
-@use '@dtsz-ui/theme-chalk/src/mixins.scss' as *;
+@use '@panda-ui/theme-chalk/src/mixins.scss' as *;
 $font-size: 14px;
 
 @mixin avatar-type($size) {

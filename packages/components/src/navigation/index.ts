@@ -1,5 +1,5 @@
-import _DtszNav from './DtszNav.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdNav from './PdNav.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszNav = withInstall(_DtszNav)
-export default DtszNav
+const PdNav = withInstall(_PdNav)
+export default PdNav

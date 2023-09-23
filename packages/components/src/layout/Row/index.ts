@@ -1,6 +1,6 @@
-import _DtszRow from './DtszRow.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdRow from './PdRow.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszRow = withInstall(_DtszRow)
+const PdRow = withInstall(_PdRow)
 
-export default DtszRow
+export default PdRow

@@ -14,7 +14,7 @@
     <div class="demo-image">
       <div v-for="fit in fits" :key="fit" class="block">
         <span class="demonstration">{{ fit }}</span>
-        <dtsz-image :width="100" :height="100" :src="url" :fit="fit" />
+        <pd-image :width="100" :height="100" :src="url" :fit="fit" />
       </div>
     </div>
 </template>
@@ -31,16 +31,16 @@ const url =
 ``` vue
 <div class="example">
     <div>
-        <dtsz-image src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg">
+        <pd-image src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg">
             <template #placeholder>
                 <div>Loading</div>
             </template>
-        </dtsz-image>
-        <dtsz-image src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg">
+        </pd-image>
+        <pd-image src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg">
             <template #error>
                 <div>Error</div>
             </template>
-        </dtsz-image>
+        </pd-image>
     </div>
 </div>
 ```
@@ -58,7 +58,7 @@ import ImageDemo2 from './demo/imagedemo2.vue'
 ```
 <template>
     <div class="demo-image__lazy">
-      <dtsz-image v-for="url in urls" :key="url" :src="url" lazy />
+      <pd-image v-for="url in urls" :key="url" :src="url" lazy />
     </div>
 </template>
   

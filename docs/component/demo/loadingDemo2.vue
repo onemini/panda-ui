@@ -1,10 +1,10 @@
 <template>
   <div
     v-loading="true"
-    dtsz-loading-text="Loading..."
-    :dtsz-loading-spinner="svg"
-    dtsz-loading-svg-view-box="-10, -10, 50, 50"
-    dtsz-loading-background="rgba(122, 122, 122, 0.8)"
+    pd-loading-text="Loading..."
+    :pd-loading-spinner="svg"
+    pd-loading-svg-view-box="-10, -10, 50, 50"
+    pd-loading-background="rgba(122, 122, 122, 0.8)"
   >
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -31,7 +31,7 @@ const svg = `
 
 onMounted(() => {
   const mask = document.getElementsByClassName(
-    "dtsz-loading-mask"
+    "pd-loading-mask"
   )[0] as HTMLElement;
   mask.style.zIndex = "9";
 });

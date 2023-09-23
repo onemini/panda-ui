@@ -1,5 +1,5 @@
-import _DtszAvatar from './avatar.vue'
-import { withInstall } from "@dtsz-ui/utils/withinstall"
+import _PdAvatar from './avatar.vue'
+import { withInstall } from "@panda-ui/utils/withinstall"
 
-const DtszAvatar = withInstall(_DtszAvatar)
-export default DtszAvatar
+const PdAvatar = withInstall(_PdAvatar)
+export default PdAvatar
