@@ -1,0 +1,21 @@
+{
+  "name": "pandas-ui",
+  "version": "1.1.2",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "pandaui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "onemini",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
+}

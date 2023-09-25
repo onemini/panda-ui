@@ -1,14 +1,14 @@
 <template>
   <div>
     <div style="display:flex">
-      <DProgressbar
+      <PProgressbar
         :angle="angle"
         size="large"
         inset_bgc="black"
         outset_bgc="red"
       >
         pd
-      </DProgressbar>
+      </PProgressbar>
     </div>
     <br>
     调配角度：

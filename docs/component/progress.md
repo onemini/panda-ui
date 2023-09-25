@@ -15,9 +15,9 @@
 <template>
   <div>
     <div style="display:flex">
-      <DProgressbar
+      <PProgressbar
         :angle="angle"
-      ></DProgressbar>
+      ></PProgressbar>
     </div>
     调配角度：
     <input
@@ -54,14 +54,14 @@ const angle = ref(0)
 <template>
   <div>
     <div style="display:flex">
-      <DProgressbar
+      <PProgressbar
         :angle="angle"
         size="large"
         inset_bgc="black"
         outset_bgc="red"
       >
       pd
-      </DProgressbar>
+      </PProgressbar>
     </div>
     <br>
     调配角度：

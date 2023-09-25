@@ -6,7 +6,7 @@ export default defineConfig(
         build: {
             target: 'modules',
             //打包文件目录
-            outDir: "dist",
+            outDir: "es",
             //压缩
             minify: false,
             //css分离
@@ -45,6 +45,7 @@ export default defineConfig(
         plugins: [
             vue(),
             dts({
+                outputDir:'dist/es',
                 //指定使用的tsconfig.json为我们整个项目根目录下掉,如果不配置,你也可以在components下新建tsconfig.json
                 tsConfigFilePath: '../../tsconfig.json'
             }),

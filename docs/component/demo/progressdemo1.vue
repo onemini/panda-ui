@@ -1,9 +1,9 @@
 <template>
   <div>
     <div style="display:flex">
-      <DProgressbar
+      <PProgressbar
         :angle="angle"
-      ></DProgressbar>
+      ></PProgressbar>
     </div>
     <br>
     调配角度：
